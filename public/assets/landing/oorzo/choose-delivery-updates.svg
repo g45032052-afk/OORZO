@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="61" y1="26" x2="744" y2="385" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EDF2FF"/>
+      <stop offset="1" stop-color="#CFDBFF"/>
+    </linearGradient>
+    <filter id="shadow" x="299" y="96" width="314" height="356" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="13" stdDeviation="14" flood-color="#2E3B64" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <rect width="800" height="400" rx="28" fill="url(#bg)"/>
+  <circle cx="704" cy="82" r="53" fill="#E1E8FF"/>
+  <circle cx="111" cy="314" r="76" fill="#E0E8FF"/>
+  <path d="M0 336c122-40 203-34 298 3 82 32 160 43 258 1 91-38 157-41 244-11v71H0v-64Z" fill="#BFCDF6"/>
+  <path d="M110 287c80-96 144-128 218-124 70 4 119 69 179 64 57-5 98-63 172-76" stroke="#7995DC" stroke-width="7" stroke-linecap="round" stroke-dasharray="2 18"/>
+  <g transform="translate(91 179)">
+    <path d="M55 0S0 64 0 107a55 55 0 1 0 110 0C110 64 55 0 55 0Z" fill="#fff"/>
+    <path d="M55 25S18 69 18 105a37 37 0 1 0 74 0C92 69 55 25 55 25Z" fill="#F4511E"/>
+    <circle cx="55" cy="103" r="13" fill="#fff"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="360" y="112" width="173" height="263" rx="24" fill="#fff"/>
+    <rect x="372" y="127" width="149" height="233" rx="17" fill="#F8FAFF"/>
+    <rect x="418" y="136" width="57" height="5" rx="2.5" fill="#AEB8CF"/>
+    <text x="389" y="174" fill="#26313D" font-family="Arial,sans-serif" font-size="14" font-weight="700">ORDER UPDATE</text>
+    <circle cx="446" cy="229" r="39" fill="#EAF5E8"/>
+    <path d="m427 229 13 13 27-29" stroke="#56A05A" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="446" y="293" fill="#26313D" font-family="Arial,sans-serif" font-size="14" font-weight="700" text-anchor="middle">On the way!</text>
+    <text x="446" y="316" fill="#8A93A0" font-family="Arial,sans-serif" font-size="11" text-anchor="middle">Your meal is getting closer</text>
+    <rect x="394" y="333" width="104" height="8" rx="4" fill="#DCE4F3"/>
+  </g>
+  <g transform="translate(564 149)">
+    <path d="M33 43h125v85H33z" fill="#F4511E"/>
+    <path d="M46 43c0-25 18-43 50-43s50 18 50 43" stroke="#27313D" stroke-width="8" stroke-linecap="round"/>
+    <path d="M48 63h95l-8 57H56l-8-57Z" fill="#F7B13C"/>
+    <path d="M72 85c14-16 34-16 48 0" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="57" cy="137" r="14" fill="#27313D"/>
+    <circle cx="136" cy="137" r="14" fill="#27313D"/>
+    <circle cx="57" cy="137" r="5" fill="#fff"/>
+    <circle cx="136" cy="137" r="5" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,231 @@
+/* ==========================================================================
+   Delivery Rule Setup
+   Pricing-method picker, hint bars, charge tables and the detail summary.
+   Colours come from the existing tokens; nothing new is introduced.
+   ========================================================================== */
+
+/* --- pricing method picker -----------------------------------------------
+   One white box holding four evenly-spread options. The options are separated
+   by whitespace only — no dividers — so the box reads as a single control. */
+.rule-method-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 24px;
+    background: #fff;
+    border: 1px solid #E9E9EA;
+    border-radius: 8px;
+    padding: 20px 24px;
+}
+
+@media screen and (max-width: 991px) {
+    .rule-method-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .rule-method-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.rule-method {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.rule-method__head {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Bootstrap's .form-check-input is absolutely positioned with a negative
+   margin, which floats the radio over its own title inside a flex row. */
+.rule-method__head .form-check-input {
+    position: static;
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.rule-method__title {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--title-clr, #222324);
+}
+
+/* Aligned to the title rather than the radio — radio width plus its gap. */
+.rule-method__hint {
+    font-size: 13px;
+    line-height: 1.55;
+    color: #656566;
+    padding-inline-start: 30px;
+}
+
+/* --- hint bars -----------------------------------------------------------
+   Standing explanation of whichever method is active, and the note beside the
+   area/zip charge tables. The bulb is markup, so a bare .rule-hint is empty. */
+.rule-hint {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    background: #EFF3FE;
+    border-radius: 8px;
+    padding: 14px 16px;
+    font-size: 13px;
+    line-height: 1.6;
+    color: var(--title-clr, #222324);
+    margin-top: 16px;
+}
+
+/* The bulb is the shared svg asset now, so it is sized rather than font-styled,
+   and nudged down to sit on the first line of the hint. */
+.rule-hint > img {
+    flex-shrink: 0;
+    width: 15px;
+    height: 15px;
+    margin-top: 3px;
+}
+
+.rule-hint a {
+    color: var(--theameColor, #006fbd);
+    text-decoration: underline;
+}
+
+/* --- charge tables -------------------------------------------------------
+   Columns are divided by rules and rows alternate, as designed. Bootstrap's
+   .table resets are avoided entirely so those borders survive. */
+.rule-charge-table {
+    background: #fff;
+    border: 1px solid #E9E9EA;
+    border-radius: 8px;
+    max-height: 340px;
+    overflow: auto;
+}
+
+.rule-charge-table__table {
+    width: 100%;
+    margin: 0;
+    border-collapse: collapse;
+}
+
+.rule-charge-table__table th,
+.rule-charge-table__table td {
+    padding: 12px 20px;
+    font-size: 14px;
+    color: var(--title-clr, #222324);
+    vertical-align: middle;
+    border-inline-end: 1px solid #E9E9EA;
+}
+
+.rule-charge-table__table th:last-child,
+.rule-charge-table__table td:last-child {
+    border-inline-end: 0;
+}
+
+.rule-charge-table__table thead th {
+    background: #F8F9FB;
+    font-weight: 600;
+    white-space: nowrap;
+    border-bottom: 1px solid #E9E9EA;
+}
+
+.rule-charge-table__table tbody tr:nth-child(even) {
+    background: #F8F9FB;
+}
+
+.rule-charge-table__sl {
+    width: 72px;
+    text-align: center;
+}
+
+/* The input owns its cell; the row tint shows around it. */
+.rule-charge-table .form-control {
+    max-width: none;
+    background-color: #fff;
+}
+
+/* --- coverage empty state ------------------------------------------------
+   Replaces the whole pane when the chosen zone has nothing to price yet. */
+.rule-coverage-empty {
+    text-align: center;
+    padding: 32px 20px;
+}
+
+.rule-coverage-empty__title {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--title-clr, #222324);
+    margin-bottom: 8px;
+}
+
+.rule-coverage-empty__text {
+    font-size: 13px;
+    line-height: 1.6;
+    color: #656566;
+    max-width: 900px;
+    margin: 0 auto 12px;
+}
+
+.rule-coverage-empty a {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--theameColor, #006fbd);
+    text-decoration: underline;
+}
+
+/* --- detail summary ------------------------------------------------------ */
+.rule-summary {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 20px;
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.rule-summary__label {
+    display: block;
+    font-size: 12px;
+    color: #656566;
+    margin-bottom: 4px;
+}
+
+.rule-summary__value {
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--title-clr, #222324);
+}
+
+.rule-status-pill {
+    display: inline-flex;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #E9E9EA;
+    border-radius: 6px;
+    padding: 8px 14px;
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--title-clr, #222324);
+}
+
+/* --- success modal mark -------------------------------------------------- */
+.rule-success-mark {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: #22C55E;
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="31" y1="17" x2="733" y2="387" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF5EA"/>
+      <stop offset="1" stop-color="#FFD8BC"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="388" y1="63" x2="568" y2="349" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#293441"/>
+      <stop offset="1" stop-color="#101820"/>
+    </linearGradient>
+    <filter id="shadow" x="295" y="38" width="310" height="392" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="14" stdDeviation="15" flood-color="#7C4528" flood-opacity=".2"/>
+    </filter>
+  </defs>
+  <rect width="800" height="400" rx="28" fill="url(#bg)"/>
+  <circle cx="151" cy="92" r="49" fill="#FFE4D0"/>
+  <circle cx="695" cy="314" r="88" fill="#F8C7A6" fill-opacity=".55"/>
+  <path d="M0 329c105-47 188-54 279-10 67 32 119 42 201 14 104-36 199-54 320-2v69H0v-71Z" fill="#F7C09B"/>
+  <g transform="translate(116 119)">
+    <rect x="0" y="41" width="177" height="116" rx="20" fill="#fff" fill-opacity=".92"/>
+    <circle cx="49" cy="97" r="31" fill="#FFF0E4"/>
+    <path d="M33 96h32M49 80v32" stroke="#F4511E" stroke-width="7" stroke-linecap="round"/>
+    <path d="M92 82h54M92 105h39" stroke="#CFD5D8" stroke-width="9" stroke-linecap="round"/>
+    <rect x="20" y="174" width="137" height="10" rx="5" fill="#E6A780" fill-opacity=".55"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="347" y="46" width="213" height="316" rx="34" fill="url(#screen)"/>
+    <rect x="359" y="59" width="189" height="289" rx="25" fill="#fff"/>
+    <rect x="411" y="68" width="84" height="8" rx="4" fill="#26313D"/>
+    <text x="378" y="105" fill="#26313D" font-family="Arial,sans-serif" font-size="15" font-weight="700">YOUR NEXT FAVORITE</text>
+    <rect x="375" y="119" width="157" height="112" rx="15" fill="#FFF0E4"/>
+    <ellipse cx="454" cy="187" rx="51" ry="30" fill="#F4511E"/>
+    <path d="M410 183c8-19 23-28 45-28s37 9 45 28" stroke="#F6B33D" stroke-width="11" stroke-linecap="round"/>
+    <path d="M413 194h82" stroke="#723A20" stroke-width="7" stroke-linecap="round"/>
+    <path d="M429 168c8-8 18-12 29-12 12 0 22 4 30 12" stroke="#77A54C" stroke-width="6" stroke-linecap="round"/>
+    <text x="378" y="258" fill="#26313D" font-family="Arial,sans-serif" font-size="13" font-weight="700">Fresh from a local kitchen</text>
+    <text x="378" y="280" fill="#89929A" font-family="Arial,sans-serif" font-size="11">A delicious choice, just nearby</text>
+    <rect x="375" y="300" width="157" height="31" rx="15" fill="#F4511E"/>
+    <text x="453" y="320" fill="#fff" font-family="Arial,sans-serif" font-size="12" font-weight="700" text-anchor="middle">ADD TO ORDER</text>
+  </g>
+  <g transform="translate(610 80)">
+    <circle cx="35" cy="35" r="35" fill="#fff"/>
+    <path d="m19 35 11 11 22-24" stroke="#56A05A" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

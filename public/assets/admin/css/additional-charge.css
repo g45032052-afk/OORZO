@@ -1,0 +1,64 @@
+/* ==========================================================================
+   Additional Delivery Charge
+   The two express/delay blocks on the setup form and the paired figures the
+   list shows for each. Colours come from the existing tokens; nothing new is
+   introduced.
+   ========================================================================== */
+
+/* --- setup blocks --------------------------------------------------------
+   A descriptor on the left, its white field card on the right — the same
+   split the delivery-rule charge tables use, so the two screens read alike. */
+.charge-block {
+    display: grid;
+    grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+    gap: 24px;
+    align-items: center;
+}
+
+.charge-block + .charge-block {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .charge-block {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+}
+
+.charge-block__fields {
+    background: #fff;
+    border: 1px solid #E9E9EA;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* --- time unit picker ----------------------------------------------------
+   The unit sits inside the same control as the number, so it is sized to its
+   own content and separated by a rule rather than a full border. */
+.charge-unit-select {
+    max-width: 100px;
+    flex: 0 0 100px;
+    background-color: #F8F9FB;
+    border-inline-start: 1px solid #E9E9EA;
+    border-start-start-radius: 0;
+    border-end-start-radius: 0;
+}
+
+/* --- list cells ----------------------------------------------------------
+   Each delivery option shows its charge above the time it trades for. */
+.charge-cell {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.charge-cell__value {
+    font-size: 14px;
+    color: var(--title-clr, #222324);
+}
+
+.charge-cell__meta {
+    font-size: 12px;
+    color: #656566;
+}

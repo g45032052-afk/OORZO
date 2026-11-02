@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" fill="none">
+  <defs>
+    <linearGradient id="plate" x1="131" y1="112" x2="441" y2="384" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFDF8"/>
+      <stop offset="1" stop-color="#F8E8D8"/>
+    </linearGradient>
+    <linearGradient id="dish" x1="177" y1="158" x2="402" y2="337" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF9A36"/>
+      <stop offset="1" stop-color="#F04A24"/>
+    </linearGradient>
+  </defs>
+  <rect x="36" y="34" width="528" height="382" rx="34" fill="#FFF6EE"/>
+  <path d="M88 328c28-52 69-77 123-77 44 0 67 19 111 19 52 0 85-34 150-34v119H88v-27Z" fill="#F7E1CE"/>
+  <circle cx="292" cy="231" r="143" fill="url(#plate)"/>
+  <circle cx="292" cy="231" r="113" fill="#fff"/>
+  <ellipse cx="292" cy="237" rx="91" ry="72" fill="url(#dish)"/>
+  <path d="M227 236c20-31 48-45 84-41 21 3 40 16 55 40m-124 22c28-19 57-22 87-8" stroke="#FFE7A8" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="263" cy="214" r="9" fill="#6E9C4D"/>
+  <circle cx="329" cy="260" r="8" fill="#6E9C4D"/>
+  <circle cx="350" cy="211" r="7" fill="#fff" fill-opacity=".75"/>
+  <path d="m131 151 21-28 21 28m-32 0h22" stroke="#F4511E" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M430 142h62m-62 18h43" stroke="#E6B18C" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="475" cy="292" r="22" fill="#E8F2E5"/>
+  <path d="M468 292h14m-7-7v14" stroke="#4E9C57" stroke-width="3" stroke-linecap="round"/>
+  <text x="292" y="367" fill="#26313D" font-family="Arial,sans-serif" font-size="22" font-weight="700" text-anchor="middle">LOCAL FLAVOUR, DELIVERED</text>
+</svg>

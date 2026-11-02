@@ -1,0 +1,43 @@
+/* ==========================================================================
+   Free Delivery
+   The two-way type picker on the setup form and the paired figures the list
+   shows for each zone. The options reuse the delivery-rule picker's own
+   .rule-method markup, so only the box around them is redefined here.
+   ========================================================================== */
+
+/* --- type picker ---------------------------------------------------------
+   Two options rather than the delivery rule's four, so they take half the box
+   each and stay side by side until the screen can no longer hold both. */
+.free-delivery-type-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+    background: #fff;
+    border: 1px solid #E9E9EA;
+    border-radius: 8px;
+    padding: 20px 24px;
+}
+
+@media screen and (max-width: 767px) {
+    .free-delivery-type-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* --- list cells ----------------------------------------------------------
+   The type, with the amount it depends on underneath when it has one. */
+.free-delivery-cell {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.free-delivery-cell__value {
+    font-size: 14px;
+    color: var(--title-clr, #222324);
+}
+
+.free-delivery-cell__meta {
+    font-size: 12px;
+    color: #656566;
+}

@@ -1,0 +1,293 @@
+{
+  "Modules/Builder/resources/assets/img/blog-templates/modern_blog.png": {
+    "file": "assets/modern_blog-B4wbLOCB.png",
+    "src": "Modules/Builder/resources/assets/img/blog-templates/modern_blog.png"
+  },
+  "Modules/Builder/resources/assets/img/blog-templates/simple_blog.png": {
+    "file": "assets/simple_blog-DKkAAMnj.png",
+    "src": "Modules/Builder/resources/assets/img/blog-templates/simple_blog.png"
+  },
+  "Modules/Builder/resources/assets/img/cancellation-policy-template/modern_cancellation.png": {
+    "file": "assets/modern_cancellation-B6OPpyce.png",
+    "src": "Modules/Builder/resources/assets/img/cancellation-policy-template/modern_cancellation.png"
+  },
+  "Modules/Builder/resources/assets/img/cancellation-policy-template/simple_cancellation.png": {
+    "file": "assets/simple_cancellation-C7tVr3v_.png",
+    "src": "Modules/Builder/resources/assets/img/cancellation-policy-template/simple_cancellation.png"
+  },
+  "Modules/Builder/resources/assets/img/footer-templates/classic_footer.png": {
+    "file": "assets/classic_footer-Bzf92hf9.png",
+    "src": "Modules/Builder/resources/assets/img/footer-templates/classic_footer.png"
+  },
+  "Modules/Builder/resources/assets/img/footer-templates/minimal-footer-bg.svg": {
+    "file": "assets/minimal-footer-bg-Yo2Jtire.svg",
+    "src": "Modules/Builder/resources/assets/img/footer-templates/minimal-footer-bg.svg"
+  },
+  "Modules/Builder/resources/assets/img/footer-templates/minimalOfferBackgroundElementHomePage.svg": {
+    "file": "assets/minimalOfferBackgroundElementHomePage-BXN2iFBH.svg",
+    "src": "Modules/Builder/resources/assets/img/footer-templates/minimalOfferBackgroundElementHomePage.svg"
+  },
+  "Modules/Builder/resources/assets/img/footer-templates/minimal_footer.png": {
+    "file": "assets/minimal_footer-BnOZnjuz.png",
+    "src": "Modules/Builder/resources/assets/img/footer-templates/minimal_footer.png"
+  },
+  "Modules/Builder/resources/assets/img/footer-templates/modern_footer.png": {
+    "file": "assets/modern_footer-bnDKyWea.png",
+    "src": "Modules/Builder/resources/assets/img/footer-templates/modern_footer.png"
+  },
+  "Modules/Builder/resources/assets/img/home-page/banner-section/classic_banner.png": {
+    "file": "assets/classic_banner-Bbw1XjDL.png",
+    "src": "Modules/Builder/resources/assets/img/home-page/banner-section/classic_banner.png"
+  },
+  "Modules/Builder/resources/assets/img/home-page/banner-section/minimal_banner.png": {
+    "file": "assets/minimal_banner-C4h4G7nl.png",
+    "src": "Modules/Builder/resources/assets/img/home-page/banner-section/minimal_banner.png"
+  },
+  "Modules/Builder/resources/assets/img/home-page/banner-section/modern_banner.png": {
+    "file": "assets/modern_banner-ChLm_Qs6.png",
+    "src": "Modules/Builder/resources/assets/img/home-page/banner-section/modern_banner.png"
+  },
+  "Modules/Builder/resources/assets/img/home-page/category-section/classic_category.png": {
+    "file": "assets/classic_category-Cw9_MezU.png",
+    "src": "Modules/Builder/resources/assets/img/home-page/category-section/classic_category.png"
+  },
+  "Modules/Builder/resources/assets/img/home-page/category-section/minimal_category.png": {
+    "file": "assets/minimal_category-Coagi6lB.png",
+    "src": "Modules/Builder/resources/assets/img/home-page/category-section/minimal_category.png"
+  },
+  "Modules/Builder/resources/assets/img/home-page/category-section/modern_category.png": {
+    "file": "assets/modern_category-Im6l9HS5.png",
+    "src": "Modules/Builder/resources/assets/img/home-page/category-section/modern_category.png"
+  },
+  "Modules/Builder/resources/assets/img/home-page/explore-products/classic_explore.png": {
+    "file": "assets/classic_explore-DGAruFQd.png",
+    "src": "Modules/Builder/resources/assets/img/home-page/explore-products/classic_explore.png"
+  },
+  "Modules/Builder/resources/assets/img/home-page/explore-products/minimal_explore.png": {
+    "file": "assets/minimal_explore-C4H6rECB.png",
+    "src": "Modules/Builder/resources/assets/img/home-page/explore-products/minimal_explore.png"
+  },
+  "Modules/Builder/resources/assets/img/home-page/explore-products/modern_explore.png": {
+    "file": "assets/modern_explore-7M7tOd7T.png",
+    "src": "Modules/Builder/resources/assets/img/home-page/explore-products/modern_explore.png"
+  },
+  "Modules/Builder/resources/assets/img/home-page/happy-hour/happy-hour.svg": {
+    "file": "assets/happy-hour-DM6ImwpI.svg",
+    "src": "Modules/Builder/resources/assets/img/home-page/happy-hour/happy-hour.svg"
+  },
+  "Modules/Builder/resources/assets/img/home-page/intro-section/classic_intro.png": {
+    "file": "assets/classic_intro-TW0Pjhbg.png",
+    "src": "Modules/Builder/resources/assets/img/home-page/intro-section/classic_intro.png"
+  },
+  "Modules/Builder/resources/assets/img/home-page/intro-section/minimal_intro.png": {
+    "file": "assets/minimal_intro-ecXy5RCd.png",
+    "src": "Modules/Builder/resources/assets/img/home-page/intro-section/minimal_intro.png"
+  },
+  "Modules/Builder/resources/assets/img/home-page/intro-section/modern_intro.png": {
+    "file": "assets/modern_intro-BCAjOjB4.png",
+    "src": "Modules/Builder/resources/assets/img/home-page/intro-section/modern_intro.png"
+  },
+  "Modules/Builder/resources/assets/img/home-page/offer-banner/classic_offer_banner.png": {
+    "file": "assets/classic_offer_banner-BGwNUvFt.png",
+    "src": "Modules/Builder/resources/assets/img/home-page/offer-banner/classic_offer_banner.png"
+  },
+  "Modules/Builder/resources/assets/img/home-page/offer-banner/minimal_offer_banner.png": {
+    "file": "assets/minimal_offer_banner-CAtXannF.png",
+    "src": "Modules/Builder/resources/assets/img/home-page/offer-banner/minimal_offer_banner.png"
+  },
+  "Modules/Builder/resources/assets/img/home-page/offer-banner/modern_offer_banner.png": {
+    "file": "assets/modern_offer_banner-BPc0HJFU.png",
+    "src": "Modules/Builder/resources/assets/img/home-page/offer-banner/modern_offer_banner.png"
+  },
+  "Modules/Builder/resources/assets/img/home-page/recently-viewed/classic_recently_viewed.png": {
+    "file": "assets/classic_recently_viewed-TEO0_FT6.png",
+    "src": "Modules/Builder/resources/assets/img/home-page/recently-viewed/classic_recently_viewed.png"
+  },
+  "Modules/Builder/resources/assets/img/home-page/recently-viewed/minimal_recently_viewed.png": {
+    "file": "assets/minimal_recently_viewed-D4IB-W2c.png",
+    "src": "Modules/Builder/resources/assets/img/home-page/recently-viewed/minimal_recently_viewed.png"
+  },
+  "Modules/Builder/resources/assets/img/home-page/recently-viewed/modern_recently_viewed.png": {
+    "file": "assets/modern_recently_viewed-BkNO9yKL.png",
+    "src": "Modules/Builder/resources/assets/img/home-page/recently-viewed/modern_recently_viewed.png"
+  },
+  "Modules/Builder/resources/assets/img/home-page/special-offer-section/classic_special_offer.png": {
+    "file": "assets/classic_special_offer-CzQnA9vi.png",
+    "src": "Modules/Builder/resources/assets/img/home-page/special-offer-section/classic_special_offer.png"
+  },
+  "Modules/Builder/resources/assets/img/home-page/special-offer-section/minimal_special_offer.png": {
+    "file": "assets/minimal_special_offer-CO5FetMP.png",
+    "src": "Modules/Builder/resources/assets/img/home-page/special-offer-section/minimal_special_offer.png"
+  },
+  "Modules/Builder/resources/assets/img/home-page/special-offer-section/modern_special.png": {
+    "file": "assets/modern_special-JNztfha_.png",
+    "src": "Modules/Builder/resources/assets/img/home-page/special-offer-section/modern_special.png"
+  },
+  "Modules/Builder/resources/assets/img/home-page/testimonials-section/classic_testimonials.png": {
+    "file": "assets/classic_testimonials-BMOCJpxq.png",
+    "src": "Modules/Builder/resources/assets/img/home-page/testimonials-section/classic_testimonials.png"
+  },
+  "Modules/Builder/resources/assets/img/home-page/testimonials-section/minimal_testimonials.png": {
+    "file": "assets/minimal_testimonials-B_Rjfvq0.png",
+    "src": "Modules/Builder/resources/assets/img/home-page/testimonials-section/minimal_testimonials.png"
+  },
+  "Modules/Builder/resources/assets/img/home-page/testimonials-section/modern_testimonials.png": {
+    "file": "assets/modern_testimonials-CqMQFK8R.png",
+    "src": "Modules/Builder/resources/assets/img/home-page/testimonials-section/modern_testimonials.png"
+  },
+  "Modules/Builder/resources/assets/img/home-page/why-choose-section/classic_why_choose.png": {
+    "file": "assets/classic_why_choose-DpZw1BtN.png",
+    "src": "Modules/Builder/resources/assets/img/home-page/why-choose-section/classic_why_choose.png"
+  },
+  "Modules/Builder/resources/assets/img/home-page/why-choose-section/minimal_why_choose.png": {
+    "file": "assets/minimal_why_choose-y6HT41jJ.png",
+    "src": "Modules/Builder/resources/assets/img/home-page/why-choose-section/minimal_why_choose.png"
+  },
+  "Modules/Builder/resources/assets/img/home-page/why-choose-section/modern_why_choose.png": {
+    "file": "assets/modern_why_choose-Dg7Lq-hk.png",
+    "src": "Modules/Builder/resources/assets/img/home-page/why-choose-section/modern_why_choose.png"
+  },
+  "Modules/Builder/resources/assets/img/image.png": {
+    "file": "assets/image-RulgRY6c.png",
+    "src": "Modules/Builder/resources/assets/img/image.png"
+  },
+  "Modules/Builder/resources/assets/img/navbar-templates/classic_navbar.webp": {
+    "file": "assets/classic_navbar-CkRWLOIy.webp",
+    "src": "Modules/Builder/resources/assets/img/navbar-templates/classic_navbar.webp"
+  },
+  "Modules/Builder/resources/assets/img/navbar-templates/minimal_navbar.webp": {
+    "file": "assets/minimal_navbar-CuIKCMJO.webp",
+    "src": "Modules/Builder/resources/assets/img/navbar-templates/minimal_navbar.webp"
+  },
+  "Modules/Builder/resources/assets/img/navbar-templates/modern_navbar.webp": {
+    "file": "assets/modern_navbar-CPlI4VIl.webp",
+    "src": "Modules/Builder/resources/assets/img/navbar-templates/modern_navbar.webp"
+  },
+  "Modules/Builder/resources/assets/img/privacy-policy-templates/modern_privacy.png": {
+    "file": "assets/modern_privacy-DBGXozXH.png",
+    "src": "Modules/Builder/resources/assets/img/privacy-policy-templates/modern_privacy.png"
+  },
+  "Modules/Builder/resources/assets/img/privacy-policy-templates/simple_privacy.png": {
+    "file": "assets/simple_privacy-D4BWwuaS.png",
+    "src": "Modules/Builder/resources/assets/img/privacy-policy-templates/simple_privacy.png"
+  },
+  "Modules/Builder/resources/assets/img/refund-policy-templates/modern_refund.png": {
+    "file": "assets/modern_refund-F4idL_sm.png",
+    "src": "Modules/Builder/resources/assets/img/refund-policy-templates/modern_refund.png"
+  },
+  "Modules/Builder/resources/assets/img/refund-policy-templates/simple_refund.png": {
+    "file": "assets/simple_refund-Bp9WPOpA.png",
+    "src": "Modules/Builder/resources/assets/img/refund-policy-templates/simple_refund.png"
+  },
+  "Modules/Builder/resources/assets/img/support-templates/modern_support.png": {
+    "file": "assets/modern_support-2rAeGV_k.png",
+    "src": "Modules/Builder/resources/assets/img/support-templates/modern_support.png"
+  },
+  "Modules/Builder/resources/assets/img/support-templates/simple_support.png": {
+    "file": "assets/simple_support-Dqo40iWe.png",
+    "src": "Modules/Builder/resources/assets/img/support-templates/simple_support.png"
+  },
+  "Modules/Builder/resources/assets/img/terms-condition-templates/modern_terms.png": {
+    "file": "assets/modern_terms-CGlOT7YT.png",
+    "src": "Modules/Builder/resources/assets/img/terms-condition-templates/modern_terms.png"
+  },
+  "Modules/Builder/resources/assets/img/terms-condition-templates/simple_terms.png": {
+    "file": "assets/simple_terms-BbNDAgHi.png",
+    "src": "Modules/Builder/resources/assets/img/terms-condition-templates/simple_terms.png"
+  },
+  "_index.esm2017-BJtptJo2.js": {
+    "file": "assets/index.esm2017-BJtptJo2.js",
+    "name": "index.esm2017"
+  },
+  "node_modules/firebase/app/dist/esm/index.esm.js": {
+    "file": "assets/index.esm--fEmnwNn.js",
+    "name": "index.esm",
+    "src": "node_modules/firebase/app/dist/esm/index.esm.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index.esm2017-BJtptJo2.js"
+    ]
+  },
+  "node_modules/firebase/messaging/dist/esm/index.esm.js": {
+    "file": "assets/index.esm-DxHgkXeS.js",
+    "name": "index.esm",
+    "src": "node_modules/firebase/messaging/dist/esm/index.esm.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index.esm2017-BJtptJo2.js"
+    ]
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-VGlbpKwI.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.jsx": {
+    "file": "assets/app-Db94UQKC.js",
+    "name": "app",
+    "src": "resources/js/app.jsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "node_modules/firebase/app/dist/esm/index.esm.js",
+      "node_modules/firebase/messaging/dist/esm/index.esm.js",
+      "node_modules/firebase/messaging/dist/esm/index.esm.js",
+      "node_modules/firebase/messaging/dist/esm/index.esm.js",
+      "node_modules/firebase/messaging/dist/esm/index.esm.js",
+      "node_modules/firebase/messaging/dist/esm/index.esm.js"
+    ],
+    "css": [
+      "assets/app-DNweLPk3.css"
+    ],
+    "assets": [
+      "assets/classic_footer-Bzf92hf9.png",
+      "assets/modern_footer-bnDKyWea.png",
+      "assets/minimal_footer-BnOZnjuz.png",
+      "assets/classic_navbar-CkRWLOIy.webp",
+      "assets/modern_navbar-CPlI4VIl.webp",
+      "assets/minimal_navbar-CuIKCMJO.webp",
+      "assets/classic_intro-TW0Pjhbg.png",
+      "assets/modern_intro-BCAjOjB4.png",
+      "assets/minimal_intro-ecXy5RCd.png",
+      "assets/classic_banner-Bbw1XjDL.png",
+      "assets/modern_banner-ChLm_Qs6.png",
+      "assets/minimal_banner-C4h4G7nl.png",
+      "assets/classic_category-Cw9_MezU.png",
+      "assets/modern_category-Im6l9HS5.png",
+      "assets/minimal_category-Coagi6lB.png",
+      "assets/classic_special_offer-CzQnA9vi.png",
+      "assets/modern_special-JNztfha_.png",
+      "assets/minimal_special_offer-CO5FetMP.png",
+      "assets/classic_explore-DGAruFQd.png",
+      "assets/modern_explore-7M7tOd7T.png",
+      "assets/minimal_explore-C4H6rECB.png",
+      "assets/classic_testimonials-BMOCJpxq.png",
+      "assets/modern_testimonials-CqMQFK8R.png",
+      "assets/minimal_testimonials-B_Rjfvq0.png",
+      "assets/classic_offer_banner-BGwNUvFt.png",
+      "assets/modern_offer_banner-BPc0HJFU.png",
+      "assets/minimal_offer_banner-CAtXannF.png",
+      "assets/classic_recently_viewed-TEO0_FT6.png",
+      "assets/modern_recently_viewed-BkNO9yKL.png",
+      "assets/minimal_recently_viewed-D4IB-W2c.png",
+      "assets/classic_why_choose-DpZw1BtN.png",
+      "assets/modern_why_choose-Dg7Lq-hk.png",
+      "assets/minimal_why_choose-y6HT41jJ.png",
+      "assets/modern_blog-B4wbLOCB.png",
+      "assets/simple_blog-DKkAAMnj.png",
+      "assets/modern_privacy-DBGXozXH.png",
+      "assets/simple_privacy-D4BWwuaS.png",
+      "assets/modern_refund-F4idL_sm.png",
+      "assets/simple_refund-Bp9WPOpA.png",
+      "assets/modern_cancellation-B6OPpyce.png",
+      "assets/simple_cancellation-C7tVr3v_.png",
+      "assets/modern_terms-CGlOT7YT.png",
+      "assets/simple_terms-BbNDAgHi.png",
+      "assets/modern_support-2rAeGV_k.png",
+      "assets/simple_support-Dqo40iWe.png",
+      "assets/minimal-footer-bg-Yo2Jtire.svg",
+      "assets/happy-hour-DM6ImwpI.svg",
+      "assets/minimalOfferBackgroundElementHomePage-BXN2iFBH.svg",
+      "assets/image-RulgRY6c.png"
+    ]
+  }
+}

@@ -1,0 +1,1123 @@
+[
+    {
+        "routeName": "Settings",
+        "URI": "admin/settings",
+        "keywords": "Settings Basic Information Full Name Phone Email Change Your Password New Password Confirm Password Save",
+        "isModified": true
+    },
+    {
+        "routeName": "Dashboard",
+        "URI": "admin",
+        "keywords": "Dashboard Hello here you can manage your orders by zone All Data From demo Zone In this page you see all the demo zone data. To show actual data setup your Zones, Business Setting & complete orders Order statistics Delivered orders Canceled orders Refunded orders Payment failed orders Unassigned orders Accepted by delivery man Cooking in restaurant Picked up by delivery man Admin commission Subscription Total sell User statistics Most Popular Restaurants Top Deliveryman  Top Restaurants Top rated foods Top selling foods",
+        "isModified": true
+    },
+    {
+        "routeName": "Cash Collection",
+        "URI": "admin/account-transaction",
+        "keywords": "Account-transaction Index Cash Collection Transaction table Collected From User Type Collected At Collected Amount Payment Method Reference Action Sl export",
+        "isModified": true
+    },
+    {
+        "routeName": "Delivery Man Earning",
+        "URI": "admin/provide-deliveryman-earnings",
+        "keywords": "Provide-deliveryman-earnings Index Provide Delivery Man Earning Deliveryman Amount Method Reference Reset Save Distribute DM Earning Table Ex Search here by Name Export SI Name Received At",
+        "isModified": true
+    },
+    {
+        "routeName": "Role Create",
+        "URI": "admin/custom-role/create",
+        "keywords": "Employee Role Default Role Name (Default) Role name example Module Permission Select All Collect cash Addon Banner Campaign Category Coupon Customers section Customer Wallet Deliveryman Deliverymen earning provide Employee Food Push notification Order Restaurants Report Business settings Restaurant withdraws Pos system Zone Contact messages Disbursement Advertisement Cashback Chat Reset Submit Employee Role Table Search by Name Export SI Role Name Modules Created At Action",
+        "isModified": true
+    },
+    {
+        "routeName": "Employee Add New",
+        "URI": "admin/employee/add-new",
+        "keywords": "Employee Add-new Add New Employee General Information First name Last name Employee image Zone Role Upload Image Phone Image format jpg png jpeg gif Image Size maximum size 2 MB Image Ratio 1:1 Account Info Email Password Confirm Password Reset Submit",
+        "isModified": true
+    },
+    {
+        "routeName": "Employee List",
+        "URI": "admin/employee/list",
+        "keywords": "Employee List Employee List Search by name or email Export SI Employee Name Phone Email Created At Action",
+        "isModified": true
+    },
+    {
+        "routeName": "Food Add New",
+        "URI": "admin/food/add-new",
+        "keywords": "Food Add-new Add New Food Restaurants & Category Info Restaurant Allergen Ingredients Addon Is It Halal Availability Price Information Maximum Purchase Quantity Limit Food variations Tags Variation Selection Type Single Selection Multiple Selection Food Image",
+        "isModified": true
+    },
+    {
+        "routeName": "Food List",
+        "URI": "admin/food/list",
+        "keywords": "Food List All All restaurants All categories Search by name Export Columns SI Name Category Restaurant Price Status Action",
+        "isModified": true
+    },
+    {
+        "routeName": "Reviews",
+        "URI": "admin/food/reviews",
+        "keywords": "Food Reviews Ex search Item name Export SI Food Customer Review Date Restaurant Reply Action",
+        "isModified": true
+    },
+    {
+        "routeName": "Food Bulk Import",
+        "URI": "admin/food/bulk-import",
+        "keywords": "Food Bulk-import Download the excel file Step 1 Step 2 Step 3 Match Spread sheet data according to instruction Validate data and complete import Instruction Download Spreadsheet Template Excel File Upload Select Data Upload type Upload New Data Update Existing Data Import items file Must be Excel files using our Excel template above Generate Variation Make Variation ",
+        "isModified": true
+    },
+    {
+        "routeName": "Banner Add New",
+        "URI": "admin/banner/add-new",
+        "keywords": "Add New Banner Default Banner image Title (Default) Upload Image Zone Image format jpg png jpeg gif Image Size maximum size 2 MB Image Ratio 2:1 Banner Type Restaurant Restaurant wise Reset Submit Banner List Ex Search by title SI Title Type Status Action",
+        "isModified": true
+    },
+    {
+        "routeName": "Promotional Banner",
+        "URI": "admin/banner/promotional-banner",
+        "keywords": "Banner Promotional Banner Title Upload Banner Min Size for Better Resolution Image format : jpg png jpeg | maximum size: 2 MB This banner is only for web.",
+        "isModified": true
+    },
+    {
+        "routeName": "Advertisement List",
+        "URI": "admin/advertisement",
+        "keywords": "Ads List New Advertisement Search by ads ID or restaurant All Ads SI Ads ID Ads Title Restaurant Info Ads Type Duration Status Priority Action",
+        "isModified": true
+    },
+    {
+        "routeName": "Advertisement Create",
+        "URI": "admin/advertisement/create",
+        "keywords": "Advertisement Create Advertisement Preview Advertisement Title (Default) Exclusive Offer Short Description (Default) Get Discount Select Restaurant Select Priority Priority Advertisement Type Restaurant Promotion Validity Select date Show Review & Ratings Review Rating Upload Related Files Title Description",
+        "isModified": true
+    },
+    {
+        "routeName": "Advertisement Request List",
+        "URI": "admin/advertisement/requests",
+        "keywords": "Advertisement Requests New Request Update Request Denied Requests Advertisement Search by ads ID or restauran SI Ads ID Ads Title Restaurant Info Ads Type Duration Action",
+        "isModified": true
+    },
+    {
+        "routeName": "Coupon Add New",
+        "URI": "admin/coupon/add-new",
+        "keywords": "Coupon Add-new Title (Default) New coupon Coupon Type Restaurant Select Customer Code Limit For Same User Start Date Expire Date Discount Type Discount Max Discount Min Purchase Reset Submit Coupon List Ex Search by title or code Export SI Title Code Type Total Uses Min Purchase Max Discount Discount Discount Type Start Date Expire Date Customer Type Status Action",
+        "isModified": true
+    },
+    {
+        "routeName": "Cashback Add New",
+        "URI": "admin/cashback",
+        "keywords": "Cashback Add-new Create Cashback Offer Cashback Type Limit for Same User Cashback Amount Cashback List All CashBacks Ex Search by title SI Name CashBack Type Amount Duration Total Used Status Action",
+        "isModified": true
+    },
+    {
+        "routeName": "Attribute Add New",
+        "URI": "admin/attribute/add-new",
+        "keywords": "Attribute Add-new Attribute_name attribute list submit",
+        "isModified": true
+    },
+    {
+        "routeName": "Attribute Bulk Import",
+        "URI": "admin/attribute/bulk-import",
+        "keywords": "Attribute Bulk-import Instructions Download the format file and fill it with proper data You can download the example file to understand how the data must be filled Once you have downloaded and filled the format file, upload it in the form below and submit Import Attributes File Import Addons File",
+        "isModified": true
+    },
+    {
+        "routeName": "Restaurant Add",
+        "URI": "admin/restaurant/add",
+        "keywords": "Restaurant Add Add new restaurant Restaurant Logo & Covers Restaurant name Restaurant address Restaurant Info Estimated Delivery Time Min & Maximum Time Cuisine Owner info Additional Data Enter your tin number License document Tags Account info",
+        "isModified": true
+    },
+    {
+        "routeName": "New Restaurant Join Request",
+        "URI": "admin/restaurant/pending/list",
+        "keywords": "Restaurant Pending New Restaurant Join Request Pending Request  Restaurants list Select veg/non veg owner info zone restaurant info business model",
+        "isModified": true
+    },
+    {
+        "routeName": "Restaurant Rejected Request",
+        "URI": "admin/restaurant/denied/list",
+        "keywords": "Restaurant Denied Restaurant Pending New Restaurant Join Request Pending Request Rejected Request Restaurants list Select veg/non veg owner info zone restaurant info business model",
+        "isModified": true
+    },
+    {
+        "routeName": "Restaurant List",
+        "URI": "admin/restaurant/list",
+        "keywords": "Restaurant List Restaurants All Business model Select Cuisine Select zone Total restaurants Active restaurants Inactive restaurants Newly joined restaurants TOTAL TRANSACTIONS COMMISSION EARNED TOTAL RESTAURANT WITHDRAWS Restaurants List Ex search by Restaurant nam Export SL Restaurant Info Owner Info Zone Cuisine Status Action Remember the current location is Dhaka Dhaka Division Bangladesh",
+        "isModified": true
+    },
+    {
+        "routeName": "Restaurant Bulk Import",
+        "URI": "admin/restaurant/bulk-import",
+        "keywords": "Restaurant Bulk import Download the excel file Match Spread sheet data according to instruction Validate data and complete import Instruction Download Spreadsheet Template Excel File Upload Import items file",
+        "isModified": true
+    },
+    {
+        "routeName": "Restaurant Withdraw List",
+        "URI": "admin/restaurant/withdraw_list",
+        "keywords": "Restaurant Withdraw List Restaurant Withdraw Transaction Withdraw Request Table Ex search by Restaurant nam All Export SI Amount Restaurant Request Time Status Action",
+        "isModified": true
+    },
+    {
+        "routeName": "Addon Add New",
+        "URI": "admin/addon/add-new",
+        "keywords": "Addon Add new Name Restaurant Price Ex water Select Restaurant 100 Stock Type Unlimited Stock Reset Submit Addon List All restaurants Search by name Export SI Name Price Restaurant Stock Type Stock Status Action",
+        "isModified": true
+    },
+    {
+        "routeName": "Addons Bulk Import",
+        "URI": "admin/addon/bulk-import",
+        "keywords": "Addon Bulk-import Bulk import Download the excel file Match Spread sheet data according to instruction Validate data and complete import Instruction Download Spreadsheet Template Excel File Upload Import items file",
+        "isModified": true
+    },
+    {
+        "routeName": "Category Add",
+        "URI": "admin/category/add",
+        "keywords": "Category Add Category name Category image Category list Priority categories",
+        "isModified": true
+    },
+    {
+        "routeName": "Sub Category Add",
+        "URI": "admin/category/add-sub-category",
+        "keywords": "Category Add sub category Sub Category Setup Main category Sub category Priority Status Action SUBMIT",
+        "isModified": true
+    },
+    {
+        "routeName": "Category Bulk Import",
+        "URI": "admin/category/bulk-import",
+        "keywords": "Category Bulk import Download the excel file Match Spread sheet data according to instruction Validate data and complete import Instruction Download Spreadsheet Template Excel File Upload Import items file",
+        "isModified": true
+    },
+    {
+        "routeName": "Cuisine list",
+        "URI": "admin/cuisine/add",
+        "keywords": "Cuisine Add Cuisine list Cuisine id Cuisine name Total restaurant Status Action",
+        "isModified": true
+    },
+    {
+        "routeName": "Zone Setup",
+        "URI": "admin/zone",
+        "keywords": "zone setup business Zone Home Business Zone Instructions Create & connect dots in a specific area on the map to add a new business zone Business Zone name Default Zone Display Name Zone list Search by name Zone id Zone display name",
+        "isModified": true
+    },
+    {
+        "routeName": "Business Zone Settings",
+        "URI": "admin/zone/latest-settings",
+        "keywords": "Zone Latest settings Business Zone settings Business Zone Settings Demo Zone See how it works Set zone wise delivery fees and incentives Delivery Charges Settings Minimum Delivery Charge Maximum Delivery Charge Delivery Charge Per Km 10 5000 1 Maximum COD Order Amount Increase Delivery Charge Increase Delivery Charge Message 3214332 Ex 100 Ex Rainy season Reset Save Incentive Settings for Deliveryman Motivate deliverymen to achieve daily earning targets and provide additional incentives to encourage increased deliveries Incentive Settings Daily Earning Target Incentive for Completing Target",
+        "isModified": true
+    },
+    {
+        "routeName": "Notification Add New",
+        "URI": "admin/notification/add-new",
+        "keywords": "Notification Add new Notification Title Zone Send To Notification banner Description Upload Image Image format jpg png jpeg gif Image Size maximum size MB Image Ratio Reset Send Notification Notification List Search by title Export SI Title Description Image Zone Target Status Action",
+        "isModified": true
+    },
+    {
+        "routeName": "Third party Map APIs",
+        "URI": "admin/business-settings/config-setup",
+        "keywords": "Business-settings Config-setup Third party Map APIs api Google Map API Setup Enter Your Map Credentials Map api key Client Map api key Server",
+        "isModified": true
+    },
+    {
+        "routeName": "Change Theme For User App",
+        "URI": "admin/business-settings/theme-settings",
+        "keywords": "Business settings Theme settings Change theme for user app apply",
+        "isModified": true
+    },
+    {
+        "routeName": "App & Web Settings",
+        "URI": "admin/business-settings/app-settings",
+        "keywords": "Business-settings App settings App & web settings App & Web Settings Popular Foods Popular Restaurants New Restaurants Most Reviewed Foods User App Version Control For Android For IOS Minimum User App Version for Force Update (Android) Minimum User App Version for Force Update (IOS) App minimum version App minimum version Download URL for User App (Android) Download URL for User App (IOS) Download Url Download Url Reset Submit Restaurant App Version Control For Android For IOS Minimum Restaurant App Version For Force Update (Android) Minimum Restaurant App Version for Force Update (IOS) App minimum version App minimum version Download URL For Restaurant App (Android) Download URL For Restaurant App (IOS) Download Url Download Url Reset Submit Deliveryman App Version Control For Android For IOS Minimum Deliveryman App Version For Force Update (Android) Minimum Deliveryman App Version For Force Update (IOS) App minimum version App minimum version Download URL For Deliveryman App (Android) Download URL For Deliveryman App (IOS) Download Url Download Url Reset Submit StackFood Copyright 2025 Business setup",
+        "isModified": true
+    },
+    {
+        "routeName": "Notification Channels Setup",
+        "URI": "admin/business-settings/notification-setup",
+        "keywords": "Business settings Notification Setup Notification Channels Setup From here you setup who can see what types of notification from StackFood Topics Push Notification mail sms Forget password Deliveryman self registration Restaurant self registration Campaign join request Withdraw request Order refund request Advertisement add Advertisement update",
+        "isModified": true
+    },
+    {
+        "routeName": "Firebase Configuration",
+        "URI": "admin/business-settings/fcm-index",
+        "keywords": "Business-settings Fcm index Firebase Configuration Firebase Push Notification Setup Service file content Api key FCM Project ID Auth domain Storage bucket Messaging sender id App id Measurement id Where to get this information Read Documentation Push Notification",
+        "isModified": true
+    },
+    {
+        "routeName": "Mail Config",
+        "URI": "admin/business-settings/mail-config",
+        "keywords": "Business-settings Mail config Smtp mail setup How it Works Mailer name Host Driver Port Username Email id Encryption Password SAVE",
+        "isModified": true
+    },
+    {
+        "routeName": "Payment Method",
+        "URI": "admin/business-settings/payment-method",
+        "keywords": "Business settings Payment method Payment Method Cash On Delivery Digital payment Offline Payment Razor pay Does not support your current USD($) Currency, thus users cannot view digital payment options in their websites and apps paypal stripe Paypal Stripe Razor pay Ssl commerz Mercadopago Liqpay Paytm Paytabs Bkash Senang pay Flutterwave Paymob accept Paystack",
+        "isModified": true
+    },
+    {
+        "routeName": "Terms And Conditions",
+        "URI": "admin/business-settings/pages/terms-and-conditions",
+        "keywords": "Business settings Terms and conditions Terms & conditions Terms and condition",
+        "isModified": true
+    },
+    {
+        "routeName": "Privacy Policy",
+        "URI": "admin/business-settings/pages/privacy-policy",
+        "keywords": "Business settings Privacy policy Privacy Policy",
+        "isModified": true
+    },
+    {
+        "routeName": "Refund Policy",
+        "URI": "admin/business-settings/pages/refund-policy",
+        "keywords": "Business settings Refund policy Refund Policy",
+        "isModified": true
+    },
+    {
+        "routeName": "Shipping Policy",
+        "URI": "admin/business-settings/pages/shipping-policy",
+        "keywords": "Business settings Shipping policy shipping policy",
+        "isModified": true
+    },
+    {
+        "routeName": "Cancellation Policy",
+        "URI": "admin/business-settings/pages/cancellation-policy",
+        "keywords": "Business settings Cancellation policy cancellation policy",
+        "isModified": true
+    },
+    {
+        "routeName": "About Us",
+        "URI": "admin/business-settings/pages/about-us",
+        "keywords": "Business settings About us about us",
+        "isModified": true
+    },
+    {
+        "routeName": "Sms Gateway Setup",
+        "URI": "admin/business-settings/sms-module",
+        "keywords": "Business settings Sms module Sms gateway setup Twilio 2factor Msg91 Nexmo Alphanet sms Api key Sender id Otp template Api secret Auth key Template id Messaging service sid ",
+        "isModified": true
+    },
+    {
+        "routeName": "ReCaptcha Credentials Setup",
+        "URI": "admin/business-settings/recaptcha",
+        "keywords": "Business-settings Recaptcha Index ReCaptcha credentials setup Google Recaptcha Information V3 Version is available now. Must setup for ReCAPTCHA V3 You must setup for V3 version. Otherwise the default reCAPTCHA will be displayed automatically Site Key Secret Key",
+        "isModified": true
+    },
+    {
+        "routeName": "Firebase OTP",
+        "URI": "admin/business-settings/firebase-otp",
+        "keywords": "Business settings Firebase Otp Firebase OTP Verification Status Web API key How it Works For configuring OTP in the Firebase, you must create a Firebase project first.If you haven’t created any project for your application yet, please create a project first Now go the Firebase console And follow the instructions below  Firebase project",
+        "isModified": true
+    },
+    {
+        "routeName": "Social Media",
+        "URI": "admin/business-settings/social-media",
+        "keywords": "Business settings Social media select social media Social media link Name Social media link Status Action",
+        "isModified": true
+    },
+    {
+        "routeName": "Storage Connection",
+        "URI": "admin/business-settings/storage-connection",
+        "keywords": "Business settings Storage Connection Storage connection credentials setup Storage Connection Settings Local Storage 3rd Party Storage S3 Credential\nThe Access Key ID is a publicly accessible identifier used to authenticate requests to S3 Key Secret Region Bucket Url End point",
+        "isModified": true
+    },
+    {
+        "routeName": "Clean Database",
+        "URI": "admin/business-settings/db-index",
+        "keywords": "Business settingsClean database This page contains sensitive information.Please make sure before click the button clear",
+        "isModified": true
+    },
+    {
+        "routeName": "Offline Payment Method Setup",
+        "URI": "admin/business-settings/offline-payment",
+        "keywords": "Business settings Offline Offline Payment Method Setup Payment Method Name Payment Info Required Info From Customer Status Action",
+        "isModified": true
+    },
+    {
+        "routeName": "Offline Payment Method Add",
+        "URI": "admin/business-settings/offline-payment/new",
+        "keywords": "Business settings Offline New Offline Payment Method Add Payment information Payment Method Name Required Information from Customer Payment Note Section View submit",
+        "isModified": true
+    },
+    {
+        "routeName": "Restaurant Registration Form",
+        "URI": "admin/business-settings/restaurant/join-us/setup",
+        "keywords": "Business settings Restaurant Page Setup New Join Request Form Setup Join Us Page Setup Default Input Fields Custom Input Fields submit Restaurant Registration Form",
+        "isModified": true
+    },
+    {
+        "routeName": "Delivery Man Registration Form",
+        "URI": "admin/business-settings/deliveryman/join-us/setup",
+        "keywords": "Business settings Delivery Man Page Setup DeliveryMan Registration Form Default Input Fields Custom Input Fields submit",
+        "isModified": true
+    },
+    {
+        "routeName": "Withdraw Method List",
+        "URI": "admin/withdraw-method/list",
+        "keywords": "Business settings Withdraw method List Withdraw Method List Methods add method Method name Method fields Active status Default method Action",
+        "isModified": true
+    },
+    {
+        "routeName": "Withdraw Method Create",
+        "URI": "admin/withdraw-method/create",
+        "keywords": "Business-settings Withdraw method Create Withdraw Method Create Withdrawal Methods Method name Input Field Type Field name Placeholder text add fields submit",
+        "isModified": true
+    },
+    {
+        "routeName": "React Landing Page Header",
+        "URI": "admin/react-landing-page/header",
+        "keywords": "React Landing Page Header React Header Section Title Subtitle Section Background Image save",
+        "isModified": true
+    },
+    {
+        "routeName": "React Landing Page Fixed Data",
+        "URI": "admin/react-landing-page/fixed-data",
+        "keywords": "React Landing Page React Fixed Data Newsletter Section Title Subtitle Footer Section save React Landing Page Fixed Data",
+        "isModified": true
+    },
+    {
+        "routeName": "React Landing Page Services",
+        "URI": "admin/react-landing-page/services",
+        "keywords": "React Landing Page React Services React Landing Page Services Service List Section Services List Icon / Image Title Subtitle status action",
+        "isModified": true
+    },
+    {
+        "routeName": "React Landing Page Promotional Banner",
+        "URI": "admin/react-landing-page/promotional-banner",
+        "keywords": "React Landing Page Promotional Banner Promotional Banner List Section Short Description Promotional Banner Image status action save reset export",
+        "isModified": true
+    },
+    {
+        "routeName": "React Landing Page Registration Section",
+        "URI": "admin/react-landing-page/registration-section",
+        "keywords": "React Landing Page Registration Section Restaurant Registration Section Button Name Redirect Link title subtitle Deliveryman Registration Section Icon Image",
+        "isModified": true
+    },
+    {
+        "routeName": "React Landing Page Available Zone",
+        "URI": "admin/react-landing-page/available-zone",
+        "keywords": "React Landing Page Available Zone To view a list of all active zones on your React Landing Page Enable the Available Zones Feature",
+        "isModified": true
+    },
+    {
+        "routeName": "Add New deliveryman",
+        "URI": "admin/delivery-man/add",
+        "keywords": "Delivery man Add Add new deliveryman General info Deliveryman type email Identification Information Vehicle Identity type Identity number Additional Data Enter your age Enter your birthdate Driving license \nAccount info",
+        "isModified": true
+    },
+    {
+        "routeName": "Delivery Man List",
+        "URI": "admin/delivery-man/list",
+        "keywords": "Delivery man List Delivery Man List Deliveryman name contact zone total order availability status action",
+        "isModified": true
+    },
+    {
+        "routeName": "Pending Delivery Man",
+        "URI": "admin/delivery-man/pending/list",
+        "keywords": "Delivery man Pending Pending delivery man name contact zone total order availability status action all job",
+        "isModified": true
+    },
+    {
+        "routeName": "Denied Deliveryman",
+        "URI": "admin/delivery-man/denied/list",
+        "keywords": "Delivery man Denied Denied deliveryman name contact zone total order availability status action all job",
+        "isModified": true
+    },
+    {
+        "routeName": "Deliveryman Reviews",
+        "URI": "admin/delivery-man/reviews/list",
+        "keywords": "Delivery man Reviews List Deliveryman reviews customer review rating search delivery man export sl",
+        "isModified": true
+    },
+    {
+        "routeName": "Delivery Man Incentives",
+        "URI": "admin/delivery-man/incentive",
+        "keywords": "Delivery man Incentive Delivery man incentives sl deliveryman zone total earning incentive date status action approve search delivery man data",
+        "isModified": true
+    },
+    {
+        "routeName": "Delivery Man Incentive History",
+        "URI": "admin/delivery-man/incentive-history",
+        "keywords": "Delivery man Incentive history Delivery man Incentive Delivery man incentives sl deliveryman zone total earning incentive date status action approve search delivery man data",
+        "isModified": true
+    },
+    {
+        "routeName": "Delivery Man Bonus",
+        "URI": "admin/delivery-man/bonus",
+        "keywords": "Delivery man Bonus Bonus DeliveryMan Amount Reference Reset Submit Transactions Search by name or transaction SI Transaction Id DeliveryMan Bonus Reference Created At",
+        "isModified": true
+    },
+    {
+        "routeName": "Point Of Sale (POS)",
+        "URI": "admin/pos",
+        "keywords": "Pos Food Section Billing Section Select Customer Add New Customer Select Zone Select Restaurant Delivery Information Home Delivery Select Categories Ex Search Food Name Item Qty Price Delete Addon Subtotal Discount Delivery fee Tax Service Charge Total Payment Method Cash On Delivery Wallet Place Order Clear Cart point of sale",
+        "isModified": true
+    },
+    {
+        "routeName": "Transaction Report",
+        "URI": "admin/report/transaction-report",
+        "keywords": "Report Day wise report Transaction Report Search Data All Zones All restaurants All Time Filter Admin Earning Restaurant Earning Deliveryman Earning Completed Transaction Refunded Transaction Order Transactions Search by Order ID Export SI Order Id Restaurant Customer Name Total Item Amount Item Discount Coupon Discount Referral Discount Discounted Amount Vat/Tax Delivery Charge Order Amount Admin Discount Restaurant Discount Admin Commission Service Charge Extra packaging amount Commision on delivery charge Admin net income Restaurant net income Amount received by Payment method Payment status Action Transaction report REPORT",
+        "isModified": true
+    },
+    {
+        "routeName": "Food Report",
+        "URI": "admin/report/food-wise-report",
+        "keywords": "Report Food wise report Search Data Sales Statistics Average Yearly Sales Value Currency total amount sold Food report table search by food name export name restaurant order count price total amount sold total discount given average sale value average ratings",
+        "isModified": true
+    },
+    {
+        "routeName": "Expense Report",
+        "URI": "admin/report/expense-report",
+        "keywords": "Report Expense report Expense Report Expense report discription Search Data All Zones All restaurants All customers All Type All Time Filter Expense Lists Search by Order ID or type Export SI Order Id Date & Time Expense Type Customer Name Expense Amount",
+        "isModified": true
+    },
+    {
+        "routeName": "Subscription Report",
+        "URI": "admin/report/subscription-report",
+        "keywords": "Subscription Report Search Data All restaurants All packages All All Time Filter Subscription Report Search by ID or Restaurant Name Export SI Transaction Id Transaction Date Restaurant Name Package Name Duration Pricing Payment Status Payment Method Action",
+        "isModified": true
+    },
+    {
+        "routeName": "Restaurant Report",
+        "URI": "admin/report/restaurant-report",
+        "keywords": "Report Restaurant report Search Data All Zones All All types All Time Reset Filter Order Statistics Average Order Value Total order amount Restaurant Report Table Ex search restaurant name Export SL Restaurant Name Total Food Total Order Total Order Amount Total Discount Given Total Admin Commission Total VAT/TAX Average Ratings",
+        "isModified": true
+    },
+    {
+        "routeName": "Order Report",
+        "URI": "admin/report/order-report",
+        "keywords": "Report Order-report Order Report Search Data All Zones All restaurants All customers All Time Filter Scheduled Orders Pending Orders Accepted Orders Processing Orders Food On The Way Delivered Canceled Payment Failed Refunded Total Orders Search by Order ID Export SI Order Id Restaurant Customer Name Total Item Amount Item Discount Coupon Discount Referral Discount Discounted Amount Tax Delivery Charge Service Charge Order Amount Amount Amount received by Payment method Order status Action",
+        "isModified": true
+    },
+    {
+        "routeName": "Campaign Order Report",
+        "URI": "admin/report/campaign-order-report",
+        "keywords": "Report Campaign Order report Camapign Order Report Search Data All Campaignes All restaurants All customers All Time Filter In progress orders On the way Delivered Orders Total orders Failed orders Refunded orders Canceled orders Total Orders Search by Order ID or Restau Export SI Order Id Restaurant Customer Name Total Item Amount Item Discount Coupon Discount Discounted Amount Tax Delivery Charge Order Amount Amount Received By Payment Method Order Status Action",
+        "isModified": true
+    },
+    {
+        "routeName": "Customer Wallet Report",
+        "URI": "admin/customer/wallet/report",
+        "keywords": "Customer Wallet Report Filter Options mm/dd/yyyy All Select Customer Reset Filter Debit Credit Balance Transactions Export SI Transaction Id Customer Credit Debit Balance Transaction Type Reference Created At",
+        "isModified": true
+    },
+    {
+        "routeName": "Customer List",
+        "URI": "admin/customer/list",
+        "keywords": "Customer List Customers Order Date Customer Joining Date Customer status Sort By Choose First Filter Customer list Ex Search by name Export SI Name Contact Information Total Order Total Order Amount Joining Date Active/Inactive Actions",
+        "isModified": true
+    },
+    {
+        "routeName": "Add Fund",
+        "URI": "admin/customer/wallet/add-fund",
+        "keywords": "Customer Wallet Add fund customer amount reference submit reset",
+        "isModified": true
+    },
+    {
+        "routeName": "Wallet Bonus Setup",
+        "URI": "admin/customer/wallet/bonus/add-new",
+        "keywords": "Customer Wallet Bonus Add new Wallet bonus setup Bonus Title (Default) Short Description (Default) Bonus Type Bonus Amount (%) Minimum Add Money Amount ($) Maximum Bonus ($) Start Date Expire Date Reset Submit Bonus List Ex Search by bonus title SI Bonus Title Bonus Info Bonus Amount Started On Expires On Status Action",
+        "isModified": true
+    },
+    {
+        "routeName": "Subscribed Mail List",
+        "URI": "admin/customer/subscribed",
+        "keywords": "Customer Subscribed Subscribed mail list Subscription Date Sort By Choose First Mail List search email export sl email created at",
+        "isModified": true
+    },
+    {
+        "routeName": "Customer Loyalty Point Report",
+        "URI": "admin/customer/loyalty-point/report",
+        "keywords": "Customer Loyalty point Report Customer Loyalty Point Report Filter Options mm/dd/yyyy All Select Customer Reset Filter Debit Credit Balance Transactions Ex Search by Transaction Id Export SI Transaction Id Customer Credit Debit Balance Transaction Type Reference Created At",
+        "isModified": true
+    },
+    {
+        "routeName": "Subscription Package List",
+        "URI": "admin/subscription/package/list",
+        "keywords": "Subscription Package List Subscription Package List Overview See overview of all the packages earnings All This Year This Month This Week Basic Standard Pro Search by name Export Add Subscription Package SI Package Name Pricing Duration Current Subscriber Status Actions",
+        "isModified": true
+    },
+    {
+        "routeName": "Subscription Package Create",
+        "URI": "admin/subscription/package/add",
+        "keywords": "Subscription Package Create Create Subscriptions Packages for Subscription Business Model Package Information Give Subscriptions Package Information Package Name (Default) Package Price ($) Package Validity Days Package Info Package Available Features Select All Mark the feature you want to give in this package Pos system Self delivery Mobile App Review Chat Set Limit Set maximum order & product limit for this package Maximum Order Limit Maximum Item Limit Unlimited (Default) Use Limit Reset Submit",
+        "isModified": true
+    },
+    {
+        "routeName": "Subscribed Restaurant List",
+        "URI": "admin/subscription/list",
+        "keywords": "Subscription Subscription List Subscribed Restaurant List Total Subscribed User Active Subscriptions Expired Subscription Expiring Soon TOTAL TRANSACTIONS TOTAL EARNING EARNED THIS MONTH Restaurant List All Ex Search by name & packag Export SI Restaurant Info Current Package Name Package Price Exp Date Total Subscription Used Is Trial Is Cancel Status Action",
+        "isModified": true
+    },
+    {
+        "routeName": "Subscription Settings",
+        "URI": "admin/subscription/settings",
+        "keywords": "Subscription Settings Subscription Settings Offer Free Trial You can offer vendors a free trial to experience the system overall Status Free Trial Period Day Submit Show Deadline Warning Select the number of days before the warning will be shown with a countdown to the end of all packages Select Days Type Message Your subscription ending soon Please renew to continue access Submit Return Money Restriction Setup the amount after which if any restaurant change migrate the subscription plan you won't return any money back Select subscription usage time Submit",
+        "isModified": true
+    },
+    {
+        "routeName": "Social Login Setup",
+        "URI": "admin/social-login/view",
+        "keywords": "Social login View Google Facebook Apple save credential setup Callback url Client id Client secret Apple api set instruction Facebook api set instruction Google api setup instructions",
+        "isModified": true
+    },
+    {
+        "routeName": "Contact Messages",
+        "URI": "admin/contact/list",
+        "keywords": "Contact List Message list Contact Messages name email status action search by name or email",
+        "isModified": true
+    },
+    {
+        "routeName": "Vehicles Category List",
+        "URI": "admin/vehicle/list",
+        "keywords": "Vehicle List Vehicles category list add vehicle category search by type starting coverage area km maximum coverage area extra charges status action",
+        "isModified": true
+    },
+    {
+        "routeName": "Add Vehicle Category",
+        "URI": "admin/vehicle/add",
+        "keywords": "Vehicle Create Vehicle type Extra charges Starting coverage area Maximum coverage are km submit reset",
+        "isModified": true
+    },
+    {
+        "routeName": "Subscription Order List",
+        "URI": "admin/order/subscription",
+        "keywords": "Order Subscription Subscription order list search by order id subscription id order type duration restaurant customer status action",
+        "isModified": true
+    },
+    {
+        "routeName": "Shift Setup",
+        "URI": "admin/shift",
+        "keywords": "Shift List Shift setup add shift search by name start time end time status action",
+        "isModified": true
+    },
+    {
+        "routeName": "Language Setup",
+        "URI": "admin/business-settings/language",
+        "keywords": "Language Language setup Language list add new language sl id code status default status action",
+        "isModified": true
+    },
+    {
+        "routeName": "Refund Settings",
+        "URI": "admin/business-settings/refund/settings",
+        "keywords": "Refund Refund Settings Refund Request Mode Customers cannot request a Refund if the Admin does not specify a cause for Refund. So Admin MUST provide a proper Refund Reason Add a Refund Reason add now status action Refund Reason List Section",
+        "isModified": true
+    },
+    {
+        "routeName": "Customer Login Setup",
+        "URI": "admin/login-settings/login-setup",
+        "keywords": "Setup Login Option The option you select customer will have the to option to login Manual Login OTP Login Social Media Login Social media login setup Connect 3rd party login system from here Choose social media Google Facebook Apple Verification The option you select from below will need to verify by customer from customer app/website Email Verification Phone Number Verification Reset Submit",
+        "isModified": true
+    },
+    {
+        "routeName": "Panel Login Page URL Setup",
+        "URI": "admin/login-url/login-page-setup",
+        "keywords": "Login Url Login Url Page Admin login url Admin employee login page Restaurant login page Restaurant login url Restaurant employee login page Restaurant employee login ur submit",
+        "isModified": true
+    },
+    {
+        "routeName": "System Addons",
+        "URI": "admin/system-addon",
+        "keywords": "Business settings System addon Upload payment & sms module Instructions Please make sure, Your server php upload_max_filesize Value is grater or equal to. Current value is post_max_size upload",
+        "isModified": true
+    },
+    {
+        "routeName": "Restaurant Disbursement List",
+        "URI": "admin/restaurant-disbursement/list",
+        "keywords": "Restaurant disbursement List Disbursement Partially completed Created at Total amount view details",
+        "isModified": true
+    },
+    {
+        "routeName": "Deliveryman Disbursement List",
+        "URI": "admin/dm-disbursement/list",
+        "keywords": "Deliveryman disbursement List Deliveryman disbursement List Disbursement Partially completed Created at Total amount view details",
+        "isModified": true
+    },
+    {
+        "routeName": "Business Settings",
+        "URI": "admin/business-settings/business-setup",
+        "keywords": "Business Settings Maintenance mode Turn on the Maintenance Mode will temporarily deactivate your selected systems as of your chosen date and time Company Information Company name email phone country address latitude longitude Clicking on the map will set Latitude and Longitude automatically General Settings Time zone Time format Currency Currency symbol position Digit after decimal point Copy right text Cookies Text Business Rule setting Default commission Commission on Delivery Charge Free Delivery Over Veg Non Veg Option Commission Base Business Model Subscription Base Business Model Include TAX Amount Order Notification For Admin Order Notification Type Firebase Manual Additional Charge Name Charge Amount Service Charge Can Pay The Rest Amount Using Free Delivery Distance Partial Payment Cod Digital payment Both Guest Checkout Country Picker Reset Save Info",
+        "isModified": true
+    },
+    {
+        "routeName": "Priority Setup",
+        "URI": "admin/business-settings/business-setup/priority",
+        "keywords": "Business Settings Category List The Food Category list groups similar items together arranged with the latest category first and in alphabetical order Use default sorting list Cuisine List Cuisines are lists of the foods people like organize by putting the newest ones at the top and arranging everything alphabetically Popular Foods Nearby Popular food Nearby means the food items list which are mostly ordered by the customers and have good reviews & ratings Popular Restaurant Popular Restaurants is the list of customer choices in which customer ordered items most and also highly rated with good reviews New Restaurant Restaurant List, Category wise restaurant list, Cuisine wise restaurant list Food Campaign Best Reviewed Food Category Wise Foods Food and Restaurant list Search Bar save information",
+        "isModified": true
+    },
+    {
+        "routeName": "Orders Settings",
+        "URI": "admin/business-settings/business-setup/order",
+        "keywords": "Business Settings Order Settings order Delivery Verification Home Delivery Takeaway Dine In Instant Order Repeat Order Option Subscription Order Scheduled Delivery Messages Custom date order Restaurant Can Cancel Order Delivery Man Can Cancel Order Order Confirmation Model Yes No Restaurant Deliveryman Time Interval For Scheduled Delivery Customer Can Order Within Days Reset Save Information Order Cancellation Messages Default English(EN) Bengali বাংলা (BN) Arabic العربية (AR) Spanish español (ES) Order Cancellation Reason (Default) User Type Users cannot cancel an order if the Admin does not specify a cause for cancellation even though they see the Cancel Order option So Admin MUST provide a proper Order Cancellation Reason and select the related user Reset Submit Order Cancellation Reason User Type Order cancellation reason list Reason Type status ",
+        "isModified": true
+    },
+    {
+        "routeName": "Restaurant Settings",
+        "URI": "admin/business-settings/business-setup/restaurant",
+        "keywords": "Business Settings Restaurant Settings Can a Restaurant Cancel Order Restaurant self registration Restaurant Can Reply Review Restaurant Can Enable Extra Packaging Charge Cash In Hand Overflow Maximum Amount to Hold Cash in Hand Minimum Amount To Pay save information",
+        "isModified": true
+    },
+    {
+        "routeName": "Delivery Man Settings",
+        "URI": "admin/business-settings/business-setup/deliveryman",
+        "keywords": "Business Settings Delivery Man Settings deliveryman settings Tips for Deliveryman Show Earnings in App Dm self registration Maximum Assigned Order Limit Can A Deliveryman Cancel Order Delivery Man Maximum Cash in Hand Minimum Amount To Pay Cash In Hand Overflow Minimum Amount To Pay Take Picture For Completing Delivery save information",
+        "isModified": true
+    },
+    {
+        "routeName": "Customer Settings",
+        "URI": "admin/business-settings/business-setup/customer",
+        "keywords": "Business Settings Customer Settings Customer Setup Customer Can Earn & Buy From Wallet Refund To Wallet Customer Can Add Fund To Wallet Customer Can Earn Loyalty Point Customer Referrer Earning Customer Loyalty Point Settings USD Equivalent Point Amount Loyalty Point Earn Per Order Minimum Point Required To Convert Customer Referral Earning Settings Who Share The Code Customers will receive this wallet balance rewards for sharing their referral code with friends who use the code when signing up and completing their first order Earning Per Referral USD Pro Member Pro Membership Pro Customer Guest Checkout Subscription",
+        "isModified": true
+    },
+    {
+        "routeName": "Landing Page Setup",
+        "URI": "admin/business-settings/business-setup/landing-page",
+        "keywords": "Business Settings Landing Page Setup Admin default landing page Currently you are using Stackfood Default Admin Landing Page Theme. Visit Landing Page",
+        "isModified": true
+    },
+    {
+        "routeName": "Disbursement Settings",
+        "URI": "admin/business-settings/business-setup/landing-page",
+        "keywords": "Business Settings Disbursement Settings Disbursement Request Type manual automated save information",
+        "isModified": true
+    },
+    {
+        "routeName": "Searching For Delivery Men Orders",
+        "URI": "admin/dispatch/list/searching_for_deliverymen",
+        "keywords": "Dispatch Management Searching for deliverymen Orders order date customer restaurant total amount order status actions search by order id",
+        "isModified": true
+    },
+    {
+        "routeName": "On Going Orders",
+        "URI": "admin/dispatch/list/on_going",
+        "keywords": "Dispatch Management On going Orders search by order id export filters columns order date customer restaurant total amount order status action",
+        "isModified": true
+    },
+    {
+        "routeName": "All Orders",
+        "URI": "admin/order/list/all",
+        "keywords": "All Orders order id order date customer information restaurant total amount order status action export filters columns",
+        "isModified": true
+    },
+    {
+        "routeName": "Scheduled Orders",
+        "URI": "admin/order/list/scheduled",
+        "keywords": "Scheduled Orders order id order date customer information restaurant total amount order status action export filters columns",
+        "isModified": true
+    },
+    {
+        "routeName": "Pending Orders",
+        "URI": "admin/order/list/pending",
+        "keywords": "Pending Orders order id order date customer information restaurant total amount order status action export filters columns",
+        "isModified": true
+    },
+    {
+        "routeName": "Accepted Orders",
+        "URI": "admin/order/list/accepted",
+        "keywords": "Accepted Orders order id order date customer information restaurant total amount order status action export filters columns",
+        "isModified": true
+    },
+    {
+        "routeName": "Processing Orders",
+        "URI": "admin/order/list/processing",
+        "keywords": "Processing Orders order id order date customer information restaurant total amount order status action export filters columns",
+        "isModified": true
+    },
+    {
+        "routeName": "Food on the way Orders",
+        "URI": "admin/order/list/food_on_the_way",
+        "keywords": "Food on the way Orders order id order date customer information restaurant total amount order status action export filters columns",
+        "isModified": true
+    },
+    {
+        "routeName": "Delivered Orders",
+        "URI": "admin/order/list/delivered",
+        "keywords": "Delivered Orders order id order date customer information restaurant total amount order status action export filters columns",
+        "isModified": true
+    },
+    {
+        "routeName": "Refunded Orders",
+        "URI": "admin/order/list/refunded",
+        "keywords": "Refunded Orders order id order date customer information restaurant total amount order status action export filters columns",
+        "isModified": true
+    },
+    {
+        "routeName": "Dine in Orders",
+        "URI": "admin/order/list/dine_in",
+        "keywords": "Dine in Orders order id order date customer information restaurant total amount order status action export filters columns",
+        "isModified": true
+    },
+    {
+        "routeName": "Offline Payments",
+        "URI": "admin/order/list/dine_in",
+        "keywords": "Verify Offline Payments Orders order id order date customer information restaurant total amount order status action export filters columns For offline payments please verify if the payments are safely received to your account Customer id not liable if you confirm and deliver the orders without checking payments transactions",
+        "isModified": true
+    },
+    {
+        "routeName": "Requested Orders",
+        "URI": "admin/refund/requested",
+        "keywords": "Requested Orders order id order date customer information restaurant total amount order status action export filters columns search your order id",
+        "isModified": true
+    },
+    {
+        "routeName": "Customer Chatting",
+        "URI": "admin/message/list?tab=customer",
+        "keywords": "Customer Chatting Conversation list message chattings search by name or phone send a message",
+        "isModified": true
+    },
+    {
+        "routeName": "Restaurant Chatting",
+        "URI": "admin/message/list?tab=vendor",
+        "keywords": "Restaurant Chatting vendor Chatting Conversation list message chattings search by name or phone send a message",
+        "isModified": true
+    },
+    {
+        "routeName": "Hero",
+        "URI": "admin/business-settings/registration-page/react/hero",
+        "keywords": "Landing Page Settings React Registration Page See How It Works Hero Section Image Upload Image Click To Upload Or Drag And Drop Warning! Are You Sure You Want To Remove This Image JPG JPEG PNG Less Than MB X Px Reset Add",
+        "bladePath": "admin-views/registration-page/react/hero",
+        "isModified": false
+    },
+    {
+        "routeName": "Stepper",
+        "URI": "admin/business-settings/registration-page/react/stepper",
+        "keywords": "Landing Page Settings React Registration Page See How It Works Add Steeper Setup The Information That You Want To Highlight For The Restaurants Default Step Title Enter Title Write The Title Within Characters Subtitle Enter Subtitle Image/Icon Warning! Are You Sure You Want To Remove This Image Click To Upload Or Drag And Drop JPG JPEG PNG Less Than MB  Reset Update",
+        "bladePath": "admin-views/registration-page/react/stepper",
+        "isModified": true
+    },
+    {
+        "routeName": "Opportunities",
+        "URI": "admin/business-settings/registration-page/react/opportunities",
+        "keywords": "Landing Page Settings React Registration Page See How It Works Add Opportunities Default Title Write The Title Within Characters Enter Title Subtitle Image/Icon Click To Upload Or Drag And Drop JPG JPEG PNG Less Than MB  Reset Add Opportunities List Search Here Sl Image Status Action Want To Enable The Status Of This Opportunity Want To Disable The Status Of This If Enabled Everyone Can See It On The Landing Page If Disabled It Will Be Hidden From The Landing Page Edit Opportunities Warning! Are You Sure You Want To Remove This Image Or Drag And Drop Default Reset Update Want To Delete This Opportunity If Yes The Opportunity Will Be Removed From This List Delete Opportunity No Data Found No Yes",
+        "bladePath": "admin-views/registration-page/react/opportunity",
+        "isModified": true
+    },
+    {
+        "routeName": "Faqs",
+        "URI": "admin/business-settings/registration-page/react/faqs",
+        "keywords": "Landing Page Settings React Registration Page See How It Works Default Add FAQ Question Write The Title Within Characters Enter Question Priority Answer Step Text Reset Add Faq List Search Here Sl Question Priority Status Action Want To Enable The Status Of This Faq Want To Disable The Status Of This If Enabled Everyone Can See It On The Landing Page If Disabled It Will Be Hidden From The Landing Page Quick View Edit Faq Default Title Enter Answer Update Want To Delete This Faq If Yes The Faq Will Be Removed From This List Delete Faq No Data Found No Yes",
+        "bladePath": "admin-views/registration-page/react/faq",
+        "isModified": true
+    },
+    {
+        "routeName": "Food Stock Out List",
+        "URI": "admin/food/out-of-stock-list",
+        "keywords": "Out Of Stock Out Of Stock Food Stock Out List Foods All Foods Add New Food Ex Search Food Name Filter Export Download Options Excel Csv Sl Name Category Restaurant Price Vat/Tax Status Action Out Of Stock Your Main Stock Is Out Of Stock One Or More Variations Are Out Of Stock Uncategorize View Restaurant Restaurant Deleted! N/A Update Stock Edit Food Want To Delete This Item Delete Food Veg Non Veg Price Discount Addons No Addons Found Main Stock Variation Stock Cancel Update No Data Found Filter Food List Food Type Non Veg Price Range Min Price Max Price Status Active Inactive Restaurant All See More Category Reset Apply No Data To Show",
+        "bladePath": "admin-views/product/stock-out-list",
+        "isModified": true
+    },
+    {
+        "routeName": "Addon Category",
+        "URI": "admin/addon/addon-category",
+        "keywords": "Add Addon Category Add New Addon Category Default Category Name Required New Category Type Category Name Select Tax Rate Reset Add Category List Search Here Ex Categories Export Download Options Excel Csv Sl Id Vat/Tax Status Action N/A Edit Category Want To Delete This Category Delete Category No Data Found",
+        "bladePath": "admin-views/addon/addon-category/index",
+        "isModified": true
+    },
+    {
+        "routeName": "AI Configuration",
+        "URI": "admin/business-settings/open-ai",
+        "keywords": "AI Setup Settings OpenAI Configuration AI Configuration AI Settings How It Works Turn OFF Important! Warning! You Can User The Power Of OpenAI To Generate Content All The AI Services Will Be Turned Off *By Turning OFF Mail Configuration All Your Mailing Services Will Be Off OpenAI API Key Ex OpenAI Organization Reset Save Enable OpenAI Configuration Go To The OpenAI API Platform And Sign Up / Log In Create A New API Key And Copy The API Key Got It",
+        "bladePath": "admin-views/business-settings/3rd_party/open_ai_config",
+        "isModified": true
+    },
+    {
+        "routeName": "AI Settings",
+        "URI": "admin/business-settings/open-ai-settings",
+        "keywords": "AI Settings OpenAI Configuration AI Configuration Restaurant Limits On Using AI Existing Customers Can Share A Referral Code With Others To Earn A Referral Bonus For This The New User MUST Sign Up Using The Referral Code And Make Their First Purchase Show Hide Food Menu AI Chat Agent AI Chat Assistant AI Chatbot Allow Customers To Use The AI Chat Assistant From The Customer App And Web A Valid OpenAI Configuration Is Required Want To Enable The AI Chat Agent Want To Disable The AI Chat Agent Customers Will Be Able To Use The AI Chat Assistant From The App And Web Remember To Save To Apply The AI Chat Assistant Will Be Hidden From Customers Remember To Save To Apply Section Wise Data Generation Set How Many Times AI Can Generate Data For Each Element Of The Restaurant Panel Or App Section Wise Data Generation Limit Image Based Data Generation Set How Many Times AI Can Generate Data From An Image Upload Image Upload Generation Limit Reset Save Information",
+        "bladePath": "admin-views/business-settings/3rd_party/open_ai_settings",
+        "isModified": true
+    },
+    {
+        "routeName": "Analytic Script",
+        "URI": "admin/business-settings/marketing/analytic-setup",
+        "keywords": "Analytics Script Marketing Tool In This Page You Can Add Credentials To Show Your Analytics On The Platform Make Sure Fill With Proper Data Other Wise You Can Not See The Analytics Properly To Know More Click How It Works View Enable This Option To Make The Marketing Tool Available For Website Utilization Disable This Option To Make The Marketing Tool Unavailable For Website Utilization Save",
+        "bladePath": "admin-views/business-settings/analytics/index",
+        "isModified": true
+    },
+    {
+        "routeName": "React Landing Page Stepper Section",
+        "URI": "admin/react-landing-page/stepper-section",
+        "keywords": "React Landing Page Stepper Section Landing Page Settings React Landing Page Show On Website If You Turn Of The Availability Status This Section Will Not Show In The Website Status Do You Want Turn On This Section Do You Want To Turn Off This Section If You Turn On This Section Will Be Show In React Landing Page If You Turn Off This Section Will Not Be Show In React Landing Page Stepper Section Default Icon Click To Upload Or Drag And Drop JPG JPEG PNG Less Than MB (Ratio ) Title Default Search & Find Food Reset Save Image Section Show Image Upload Single Image Upload Multiple In Grid Upload Image Image JPG JPEG PNG Size X Px",
+        "bladePath": "admin-views/landing_page/react/stepper",
+        "isModified": true
+    },
+    {
+        "routeName": "React Landing Page Categories",
+        "URI": "admin/react-landing-page/categories",
+        "keywords": "React Landing Page Categories Landing Page Settings React Landing Page Show On Website If You Turn Of The Availability Status This Section Will Not Show In The Website Status Do You Want Turn On This Section Do You Want To Turn Off This Section If You Turn On This Section Will Be Show In React Landing Page If You Turn Off This Section Will Not Be Show In React Landing Page Category Section Manage The Main Headline And Sub Headline For The Food Categories Section Default Title Default Write The Main Headline For The Food Categories Section Keep It Under Characters Title Subtitle Write A Brief Line To Encourage Exploration Organized By Your Favorite Cuisines And Food Types Keep It Under Characters Customise The Section By Adding A Title And Subtitle In The Category Setup Section All Created Categories Will Be Automatically Displayed On The React Landing Pgae The Categories Will Be Based On The Category Display Name Reset Save",
+        "bladePath": "admin-views/landing_page/react/category",
+        "isModified": true
+    },
+    {
+        "routeName": "React Landing Page Faq Section",
+        "URI": "admin/react-landing-page/FAQ-section",
+        "keywords": "React Landing Page Faq Section Landing Page Settings React Landing Page Show On Website If You Turn Of The Availability Status This Section Will Not Show In The Website Status Do You Want Turn On This Section Do You Want To Turn Off This Section If You Turn On This Section Will Be Show In React Landing Page If You Turn Off This Section Will Not Be Show In React Landing Page Faq Section Manage The Main Title And Subtitle For The Frequently Asked Questions Section Default Title Default The Main Headline For The FAQ Section Keep It Under Characters Title Subtitle A Brief Line That Encourages Users To Browse The FAQs For Quick Solutions Keep It Under Characters Subtitle Reset Save FAQ Q&A Setup Add And Manage Individual Questions And Answers For Each User Type User Type Select User Type Customer Restaurant Deliveryman Question Enter A Clear Commonly Asked Question From Users Keep It Under Characters Answer Provide A Clear Concise And Helpful Answer To The Question Keep It Under Characters Ex Great Service Add FAQ Q/A List Search Question Search Sl Action Want To Enable This Faq Want To Disable This If Enabled It Will Be Shown On The React Landing Page If Disabled It Will Be Hidden From The React Landing Page Edit Faq Want To Delete This Faq If Yes The Faq Will Be Removed From This List Delete Faq No Data Found No Yes",
+        "bladePath": "admin-views/landing_page/react/faq",
+        "isModified": true
+    },
+    {
+        "routeName": "React Landing Page Testimonials",
+        "URI": "admin/react-landing-page/testimonials",
+        "keywords": "React Landing Page Testimonials Landing Page Settings React Landing Page Show On Website If You Turn Of The Availability Status This Section Will Not Show In The Website Status Do You Want Turn On This Section Do You Want To Turn Off This Section If You Turn On This Section Will Be Show In React Landing Page If You Turn Off This Section Will Not Be Show In React Landing Page Testimonial Section Manage The Main Title For The Customer Reviews Section Default Title Default The Main Headline For The Customer Reviews Section Title Reset Save Add Reviewers Add And Manage Individual Customer Testimonials Reviewer Name The Full Name Of The Customer Giving The Testimonial Ex John Review Ex Great Service Ex John Reviewer Image Upload Reviewer Image Click To Upload Or Drag And Drop JPG JPEG PNG Less Than MB ( X Px) Add Testimonial List Search Name Search Sl Image Reviews Action Want To Enable This Testimonial Want To Disable This If Enabled It Will Be Shown On The React Landing Page If Disabled It Will Be Hidden From The React Landing Page Edit Testimonial Want To Delete This Testimonial If Yes The Testimonial Will Be Removed From This List Delete Testimonial No Data Found No Yes",
+        "bladePath": "admin-views/landing_page/react/testimonials",
+        "isModified": true
+    },
+    {
+        "routeName": "React Landing Page Gallery",
+        "URI": "admin/react-landing-page/gallery",
+        "keywords": "React Landing Page Gallery Landing Page Settings React Landing Page Show On Website If You Turn Of The Availability Status This Section Will Not Show In The Website Status Do You Want Turn On This Section Do You Want To Turn Off This Section If You Turn On This Section Will Be Show In React Landing Page If You Turn Off This Section Will Not Be Show In React Landing Page Gallery Section Showcase High Quality Food Images To Attract Users Visually Default Title Default This Is The Main Headline For Your Image Gallery Title Subtitle This Text Should Encourage Users To Browse The Gallery And Connect It To The Experience Of Using Your Service Keep It Under Characters Reset Save Add Image Here You Setup Your All Business Information Section Preview Upload Image Click To Upload Or Drag And Drop Section Background Image ( JPG JPEG PNG Less Than MB | Ratio ) Save Gallery Section Preview Enjoy Greshly Prepared Your Favorite Restaturants Carefuly Delivered To Your Doorstep With Sepeed And Care",
+        "bladePath": "admin-views/landing_page/react/gallery",
+        "isModified": true
+    },
+    {
+        "routeName": "Restaurant Vat Report",
+        "URI": "admin/report/vendor-wise-taxes",
+        "keywords": "Restaurant Tax Report Restaurant Vat Report Date Range Select Date Range Select Restaurant All Restaurants Filter Total Orders Total Order Amount Total Tax Amount All Restaurant Taxes Ex Name Search Reset Selected Export Download Options Excel Csv Sl Restaurant Info Total Order Tax Amount Action Total Tax Sum Of Taxes No Data Found",
+        "bladePath": "admin-views/report/tax-report/vendor-tax-report",
+        "isModified": true
+    },
+    {
+        "routeName": "Create Taxes",
+        "URI": "taxvat/get-taxvat-data",
+        "keywords": "System Tax All Taxes List of Taxes Create Taxes Tax Name Tax Type Tax Rate Tax Status Reset Save create tax",
+        "bladePath": "admin-views/report/tax-report/get-taxvat-data",
+        "isModified": true
+    },
+    {
+        "routeName": "Setup Taxes",
+        "URI": "taxvat/system-taxvat",
+        "keywords": "System Tax Setup System Tax Setup Tax Calculation Allow Tax Calculation For Restaurant To active tax calculation Turn On The Status Tax calculation based on Product Price Calculate Tax Include Product Price By selecting this option no need to setup VAT from here. If enabled the customer will see the total food price including VAT Calculate Tax Exclude Product Price By selecting this option you will need to setup individual vat rate for different types of income source Basic Setup Select Tax Type order wise product wise category wise select tax rate tax on packaging charge additional setup reset save information",
+        "bladePath": "admin-views/report/tax-report/system-taxvat",
+        "isModified": true
+    },
+    {
+        "routeName": "React Landing Page Download Apps",
+        "URI": "admin/react-landing-page/download-apps",
+        "keywords": "React Landing Page Setup Guideline Add the Apple Store link to allow customers to download the app Add the Play Store link to allow customers to download the app Download Link Apple store Download Manage mobile app download area including QR codes and app store buttons. Download App Section Play store Download React Landing Page Download Apps Download Apps Section Title Subtitle App Store Link Play Store Link Show on Website If You Turn Of The Availability Status This Section Will Not Show In The Website Status Do You Want Turn On This Section Do You Want To Turn Off This Section If You Turn On This Section Will Be Show In React Landing Page If You Turn Off This Section Will Not Be Show In React Landing Page Download Apps Section Default Title Default The Main Headline For The Download Apps Section Title Subtitle This Text Should Encourage Users To Download The App And Connect It To The Experience Of Using Your Service Keep It Under Characters Reset Save App Store Link Play Store Link",
+        "bladePath": "admin-views/landing_page/react/download_apps",
+        "isModified": true
+    },
+    {
+        "routeName": "Gallery",
+        "URI": "admin/file-manager/index",
+        "keywords": "Gallery",
+        "bladePath": "admin-views/file-manager/index",
+        "isModified": true
+    },
+    {
+        "routeName": "React Landing Page Meta Data",
+        "URI": "admin/react-landing-page/meta-data",
+        "keywords": "Landing Page Settings React Landing Page Meta Data Setup Include Meta Title Description And Image To Improve Search Engine Visibility And Social Media Sharing Default Meta Title This Title Appears In Browser Tabs Search Results And Link Previews Use A Short Clear And Keyword Focused Title (recommended Characters Ex Type Meta Title Meta Description A Brief Summary That Appears Under Your Page Title In Search Results Keep It Compelling And Relevant (recommended — Characters) Type A Short Description For Campaign Type A Short Description For Campaign Meta Image Upload Your Meta Image Click To Upload Or Drag And Drop JPG JPEG PNG Less Than MB ( X Px) Reset Save",
+        "bladePath": "admin-views/landing_page/react/meta_data",
+        "isModified": true
+    },
+    {
+        "routeName": "Admin Landing Page Meta Data",
+        "URI": "admin/landing-page/meta-data",
+        "keywords": "Landing Page Settings Admin Landing Page Meta Data Setup Include Meta Title Description And Image To Improve Search Engine Visibility And Social Media Sharing Default Meta Title This Title Appears In Browser Tabs Search Results And Link Previews Use A Short Clear And Keyword Focused Title (recommended Characters Ex Type Meta Title Meta Description A Brief Summary That Appears Under Your Page Title In Search Results Keep It Compelling And Relevant (recommended — Characters) Type A Short Description For Campaign Type A Short Description For Campaign Meta Image Upload Your Meta Image Click To Upload Or Drag And Drop JPG JPEG PNG Less Than MB ( X Px) Reset Save",
+        "bladePath": "admin-views/landing_page/meta_data",
+        "isModified": true
+    },
+    {
+        "routeName": "Index",
+        "URI": "admin/addon-activation",
+        "keywords": "Add On Activation Restaurant App With This App Your Vendor Will Mange Their Business Through Mobile App View Want To Turn ON The Restaurant App Addon Want To Turn OFF The Restaurant App Addon Codcanyon User Name Ex Codcanyon Purchase Code Reset Submit Deliveryman App With This App Your All Your Deliveryman Will Mange Their Orders Through Mobile App Want To Turn ON The Deliveryman App Addon Want To Turn OFF The Deliveryman App Addon React User Website With This React Website Your Customers Will Experience Your System In A More Attractive And Seamless Way Want To Turn ON The React Web Addon Want To Turn OFF The React Web Addon",
+        "bladePath": "admin-views/addon-activation/index",
+        "isModified": false
+    },
+    {
+        "routeName": "NotificationMessages",
+        "URI": "admin/business-settings/notification-messages",
+        "keywords": "Notification Messages Setup Push Notification Messages For Customer Must Setup Firebase Configuration Page To Work Notifications Push Notification Configure And Send Real Time Push Notifications To Engage Users And Share Important Updates Insert Variable Default {userName} {orderId} {restaurantName} Are Supported By Turning ON Notification Message For By Turning OFF Notification Message For Ex Multi Language Not Available Reset Save Information Provide A Pop Up Title And Subtitle For The Push Notification User {userName} Restaurant {restaurantName} OrderId {orderId} Delivery Man Name {deliveryManName} OTP {otp} Token Number {tokenNumber} Table Number {tableNumber} View Guideline Notification Messages Guideline Firebase Console Let’s Setup Go To Firebase Console Open Your Web Browser And Go To The Firebase Console Https //console Firebase Google Com/ Select The Project For Which You Want To Configure FCM From The Firebase Console Dashboard Navigate Navigate To Project Settings In The Left Hand Menu Click On The Settings Gear Icon And Then Select Project Settings From The Dropdown In The Project Settings Page Click On The Cloud Messaging Tab From The Top Menu Obtain All The Information Asked! In The Firebase Project Settings Page Click On The General Tab From The Top Menu Under The Your Apps Section Click On The Web App For Which You Want To Configure FCM Then Obtain API Key FCM Project ID Auth DomainStorage Bucket Messaging Sender ID Note Please Make Sure To Use The Obtained Information Securely And In Accordance With Firebase And FCM Documentation Terms Of Service And Any Applicable Laws And Regulations Notification Body Write A Message In The Notification Body You Can Add Your Message Using Placeholders To Include Dynamic Content Here Are Some Examples Of Placeholders You Can Use {userName} The Name Of The User {restaurantName} The Name Of The Restaurant {orderId} The Order Id {deliveryManName} The Name Of The Delivery Man {otp} The OTP Code For Order Verification {tokenNumber} The Token Number For Dine In {tableNumber} The Table Number For Dine In",
+        "bladePath": "admin-views/business-settings/notification/notification_message",
+        "isModified": false
+    },
+    {
+        "routeName": "PageMetaData",
+        "URI": "admin/page-meta-data",
+        "keywords": "Landing Page Settings Restaurant List Setup Meta Data Setup Back To List Include Meta Title Description And Image To Improve Search Engine Visibility And Social Media Sharing Default Meta Title This Title Appears In Browser Tabs Search Results And Link Previews Use A Short Clear And Keyword Focused Title (recommended Characters Ex Type Meta Title Meta Description A Brief Summary That Appears Under Your Page Title In Search Results Keep It Compelling And Relevant (recommended — Characters) Type A Short Meta Description Type A Short Meta Description Meta Image This Image Is Used As A Preview Thumbnail When The Page Link Is Shared On Social Media Or Messaging Platforms Upload Your Meta Image Click To Upload Or Drag And Drop JPG JPEG PNG Less Than MB ( X Px) Index Allow Search Engines To Put This Web Page On Their List Or Index And Show It On Search Results No Index Disallow Search Engines To Put This Web Page On Their List Or Index And Do Not Show It On Search Results No Follow Instruct Search Engines Not To Follow Links From This Web Page No Image Index Prevents Images From Being Listed Or Indexed By Search Engines No Archive Instruct Search Engines Not To Display This Webpages Cached Or Saved Version No Snippet Instruct Search Engines Not To Show A Summary Or Snippet Of This Webpages Content In Search Results Max Snippet Determine The Maximum Length Of A Snippet Or Preview Text Of The Webpage Max Video Preview Determine The Maximum Duration Of A Video Preview That Search Engines Will Display Max Image Preview Determine The Maximum Size Or Dimensions Of An Image Preview That Search Engines Will Display Large Medium Small Reset Save",
+        "bladePath": "admin-views/landing_page/react/page_seo_data",
+        "isModified": false
+    },
+    {
+        "routeName": "VendorTax",
+        "URI": "admin/report/vendor-tax-report",
+        "keywords": "Restaurant Tax Report Date Export Download Options Excel Csv Total Order Amount Total Tax Amount Sl Order Id Order Amount Tax Type Tax Amount Additional Charge Total Tax Tax Amount No Data Found",
+        "bladePath": "admin-views/report/tax-report/vendor-tax-detail-report",
+        "isModified": false
+    },
+    {
+        "routeName": "Report",
+        "URI": "admin/customer/overview/report",
+        "keywords": "Customer List Customer Overview Report Loading Customer List Ex Search By Name Export Download Options Excel Csv Filter Sl Customer Info Joining Date Total Order Total Spent AOV Last Purchase Most Used Payment Method Actions Incomplete Profile Never Ordered Today Day Ago Days Ago N/A View Customer No Data Found Filter Customer List Customer Joining Date Range Start Date End Date Customer Status Select Status All Customers Active Customers Inactive Customers Sort By Select Customer Sorting Order Most Ordered Most Spent Oldest Default Latest Choose First Ex Reset Apply",
+        "bladePath": "admin-views/customer/report/customer-overview-report",
+        "isModified": false
+    },
+    {
+        "routeName": "Admin Earning Report",
+        "URI": "admin/report/admin-earning-report",
+        "keywords": "Admin Earning Report Comprehensive Financial Overview And Analytics Filter Data Date Range All Time This Week This Month This Year Custom Range Start Date Enter Start Date End Date Enter End Date Reset Filter Earnings Summary Breakdown Of Revenue Sources And Performance Earnings Breakdown Expenses Breakdown Earnings Trend Earnings Vs Expenses Earnings By Source Recent Transactions Earnings Subscription Earnings Expenses Search By Txn ID Or Order ID Export Download Options Excel Csv Order Commission Subscription Packages Additional Fees Delivery Fee Commission Search By Transaction ID Search By Transaction ID Or Restaurant Name Search By Txn ID Or Order ID",
+        "bladePath": "admin-views/report/admin-earning-report",
+        "isModified": false
+    },
+    {
+        "routeName": "Restaurant Earning Report",
+        "URI": "admin/report/restaurant-earning-report",
+        "keywords": "Restaurant Earning Report Comprehensive Financial Overview And Analytics",
+        "bladePath": "admin-views/report/restaurant-earning-report",
+        "isModified": false
+    },
+    {
+        "routeName": "Deliveryman Earning Report",
+        "URI": "admin/report/deliveryman-earning-report",
+        "keywords": "Delivery Man Earning Report Comprehensive Financial Overview And Analytics",
+        "bladePath": "admin-views/report/deliveryman-earning-report",
+        "isModified": false
+    },
+    {
+        "routeName": "Report",
+        "URI": "admin/customer/loyalty-point-report",
+        "keywords": "Customer Loyalty Point Report Filter Options From Date To Date Search Transaction Select Transaction Type All Point To Wallet Order Place Search Customer Select Customer Reset Filter Debit Credit Balance Transactions Ex Search By TransactionId Or Reference Search Export Download Options Excel Csv Sl Transaction Id Customer Transaction Type Reference Created At Not Found No Data Found Invalid Date Range",
+        "bladePath": "admin-views/customer/loyalty-point/report",
+        "isModified": false
+    },
+    {
+        "routeName": "Index",
+        "URI": "admin/order-cancel-reasons",
+        "keywords": "Order Cancellation Reasons Add An Order Cancellation Reason Select User Type Admin Restaurant Customer Deliveryman Add Reason Order Cancellation Reason List Sl Reason Type Status Action Edit Want To Delete This Order Cancellation Reason Delete Order Cancellation Reason Update Close Save Changes",
+        "bladePath": "admin-views/order/cancelation-reason",
+        "isModified": false
+    },
+    {
+        "routeName": "Invoice Setup List",
+        "URI": "admin/business-settings/invoice-setup",
+        "keywords": "Invoice Setup Editor Manage The Following Template Edit And View The Changes Made Logo On Invoice Enable The Option To Update The Logo That Appears On Invoices View Choose How To Display The Logo Use Business Logo Upload New Logo Upload Your Business Logo Business Identity Select Your Business Identity Type From The Provided Options Choose Business Identity Tax Id Bin Number Musak Tax Number Type Your Tax Number Type Your Bin Number Type Your Musak Terms & Condition On Invoice Enable The Option To Update The Terms & Condition That Appears On Invoices Write Terms & Condition Provide The Terms & Conditions Content That Will Be Shown Only On The Invoice Type Here Show Copyright Text On Invoice Enable The Option To Update The Copyright Text That Appears On Invoices Write Copyright Text Invoice Preview Preview Of The Invoice House Order Type Home Delivery Order ID Customer Name Phone Delivery Address QTY Item Price Item Price Addon Cost Subtotal Discount Coupon Discount Vat/tax Delivery Man Tips Delivery Charge Service Charge Total Terms & Condition Thank You For Ordering Food From Stackfood StackFood All Right Reserved Reset Save Information Invoice Logo Is Required Tax Number Is Required Bin Number Is Required Musak Number Is Required Terms & Condition Content Is Required Copyright Text Is Required Update Option Is Disabled For Demo!",
+        "bladePath": "admin-views.business-settings.invoice-setup.index",
+        "isModified": false
+    },
+    {
+        "routeName": "Reels",
+        "URI": "admin/reels",
+        "keywords": "Reels List Restaurant Information All Deleted Total Reels Total Views This Week Total Likes Store Visits Total Sale Amount Total Sale Reels Overview Customer Engagement View Likes Sell Search Here Filter Status Active Inactive Reel Status Sort By Reel Upload Date All Time This Week This Month Custom Start Date End Date Reset",
+        "bladePath": "reelsmodule::admin/reels/index",
+        "isModified": false
+    },
+    {
+        "routeName": "Reels Add",
+        "URI": "admin/reels/create",
+        "keywords": "Create Reels Something Went Wrong",
+        "bladePath": "reelsmodule::admin/reels/create",
+        "isModified": false
+    },
+    {
+        "routeName": "Restaurant Categories",
+        "URI": "admin/restaurant-category/list",
+        "keywords": "Restaurant Categories Restaurant Category Setup All Restaurant Categories Will Be Show Only In Restaurant Details Page Restaurant Category List Search Here Export Download Options Excel Csv Add Restaurant Category SL Category Info Restaurant Priority Level Set How Prominently This Category Should Appear To Customers Status Action ID Normal Medium High Edit Restaurant Category Want To Delete This Restaurant Category Delete Restaurant Category No Data Found",
+        "bladePath": "admin-views/restaurant-category/index",
+        "isModified": false
+    },
+    {
+        "routeName": "Benefits Setup",
+        "URI": "admin/pro-customer/benefits-setup",
+        "keywords": "Pro Customer Benefits Setup Discount If Enable This Option Pro Customers Will Receive Discount On Every Order View Discount Setup Configure Discount Logic For Pro Customer Discount (%) Discount Percentage Info Ex Up To Discount Amount Max Discount Info Minimum Order Amount ($) Min Order Amount Info Delivery Fee If Enable This Option Pro Customers Will Receive Free Delivery On Every Order Choose One Offer Select The Delivery Offer You Want To Provide To Your Customers Offer Type Offer Type Full Free Partial Free Delivery Charge Discount (%) Delivery Charge Discount Info Coupon Create Special Coupons From Coupons And Choose Pro Customer As The Coupon Type Reset Save Information Only One Pro Customer Benefit Can Be Enabled At A Time",
+        "bladePath": "admin-views/pro-customer/benefits-setup",
+        "isModified": false
+    },
+    {
+        "routeName": "Price Setup",
+        "URI": "admin/pro-customer/price-setup",
+        "keywords": "Price Setup Pro Customer Price Setup Subscription Price Manage Subscription Packages Here Add Plan Want To Delete This Plan Delete Edit Free Trial Paid Free Days Add Subscription Plan Discount Will Be Applied To All Food Under This Restaurant",
+        "bladePath": "admin-views/pro-customer/price-setup",
+        "isModified": false
+    },
+    {
+        "routeName": "Pro Customers",
+        "URI": "admin/pro-customer/list",
+        "keywords": "Pro Customer List Pro Customer Total Subscriber Plan Wise Subscribers Active Subscriber Inactive Subscriber New Subscriber Customers Who Joined In The Last Months Are Considered New Subscribers Total Earned Plan Wise Total Earned Earned Last Days Plan Wise Earned Last Days All Active Expired Search Here Search Export Download Options Excel Csv Filter SL Customer Info Plan Validity Plan Name Plan Price Subscription Status Pro Status Total Orders Orders Placed During This Subscription Actions Unknown Customer Not Found Free Trial Pro Regular View Subscription Plan Cancel This Subscription Cancel Subscription No Pro Subscribers Yet Pro Customer Subscriptions Will Appear Here Once Users Subscribe Filter Subscriber Validity Date Range Filter Subscriptions Starting Within The Chosen Range Select Date Plan Select Plan Select Status Canceled Renewal Status Upcoming (within Days) Reset Apply",
+        "bladePath": "admin-views/pro-customer/list",
+        "isModified": false
+    },
+    {
+        "routeName": "Transactions",
+        "URI": "admin/pro-customer/transactions",
+        "keywords": "Pro Customer Transactions Transactions Search Here Search Export Download Options Excel Csv Filter SL Transaction ID Transaction Date Customer Info Plan Name Pricing Plan Validity Payment By Unknown Customer Not Found Free Trial N/A No Transactions Yet Pro Customer Transactions Will Appear Here Once Subscriptions Are Purchased Transaction Filter Transaction Date Range Filter Transactions By The Date The Payment Was Recorded Select Date Plan Select Plan All Payment Status Select Status Paid Payment Method Select Payment Method Reset Apply",
+        "bladePath": "admin-views/pro-customer/transactions",
+        "isModified": false
+    },
+    {
+        "routeName": "Additional Setup",
+        "URI": "admin/pro-customer/additional-setup",
+        "keywords": "Additional Setup Add FAQ Default Reset Add FAQ List Search Here Search SL Question Answer Priority Status Action Quick View Edit Want To Delete This FAQ Delete No FAQs Yet Add Your First FAQ Above To Help Pro Customers Understand The Program",
+        "bladePath": "admin-views/pro-customer/additional-setup",
+        "isModified": false
+    },
+    {
+        "routeName": "Terms And Conditions",
+        "URI": "admin/pro-customer/terms-and-conditions",
+        "keywords": "Terms And Conditions Default Page Title Title Shown At The Top Of The Terms Page Pro Membership Terms And Conditions Page Description Full Terms Text Displayed To Pro Customers Reset Save Information",
+        "bladePath": "admin-views/pro-customer/terms-and-conditions",
+        "isModified": false
+    },
+    {
+        "routeName": "BOGO Offer List",
+        "URI": "admin/bogo-offer/list",
+        "keywords": "BOGO Bogo Offer BOGO Offer List Manage BOGO Manage Bogo Offer Manage BOGO Offers BOGO Management Bogo Offer Management BOGO List Buy One Get One Buy 1 Get 1 Buy Get Free Free Item Offer Promotion Campaign Bogo Offers Search by title Export Add BOGO Offer Title Duration Buy Food Qty Get Food Qty Restaurant Usage Limit Status Action",
+        "isModified": true
+    },
+    {
+        "routeName": "Add BOGO Offer",
+        "URI": "admin/bogo-offer/add-new",
+        "keywords": "Add BOGO Offer Create BOGO Offer New BOGO Bogo Buy One Get One Buy 1 Get 1 Free Item Here you can give BOGO offer information Title Description BOGO Offer image Buy Food Qty Get Food Qty Start Date End Date Usage Limit Total Usage Limit Per Customer Select Order Type Home Delivery Take Away Dine In Reset Save",
+        "isModified": true
+    },
+    {
+        "routeName": "Happy Hour List",
+        "URI": "admin/happy-hour/list",
+        "keywords": "Happy Hour Happy Hour List Happyhour Time Based Discount Scheduled Discount Window Offer Promotion Discount Duration Min Order Amount Offer Schedule Zone Status Action Export Create Happy Hour Search",
+        "isModified": true
+    },
+    {
+        "routeName": "Create Happy Hour",
+        "URI": "admin/happy-hour/add-new",
+        "keywords": "Create Happy Hour Add Happy Hour New Happy Hour Happyhour Time Based Discount Scheduled Offer General info Discount Setup Schedule Duration Setup Happy Hour Title Short Description Cover image Icon Zone Discount Min Order Amount Offer Schedule Type Daily Weekly Custom Date Range Time Range Reset Submit",
+        "isModified": true
+    },
+    {
+        "routeName": "Area Setup",
+        "URI": "admin/area/list",
+        "keywords": "Area Setup Area list Business Area Add New Area Area Name Zone Name Display Name Delivery Management area wise delivery charge coverage",
+        "isModified": true
+    },
+    {
+        "routeName": "Zip Code Setup",
+        "URI": "admin/zip-code/list",
+        "keywords": "Zip Code Setup Zip Code list Add New Zip Code Zip Code Postal Code Zone Name Delivery Management zip code wise delivery charge coverage",
+        "isModified": true
+    },
+    {
+        "routeName": "Delivery Charge Rules Setup",
+        "URI": "admin/delivery-rule/list",
+        "keywords": "Delivery Charge Setup Rules Setup Delivery Rule Delivery Charge Rule list Add New Rule distance wise fixed amount area wise zip code wise per km minimum delivery charge maximum delivery charge Delivery Management",
+        "isModified": true
+    },
+    {
+        "routeName": "Additional Charge Setup",
+        "URI": "admin/additional-charge/list",
+        "keywords": "Additional Charge Setup Additional Delivery Charge Additional Charge List Express Delivery Slightly Delay Extra Charge Reduce Charge Extra Delivery Time Reduce Delivery Time saver delivery type Delivery Charge Setup Delivery Management",
+        "isModified": true
+    },
+    {
+        "routeName": "Free Delivery Setup",
+        "URI": "admin/free-delivery/list",
+        "keywords": "Free Delivery Free Delivery Setup Free Delivery list Add New Free Delivery minimum order amount free delivery over Delivery Charge Setup Delivery Management",
+        "isModified": true
+    },
+    {
+        "routeName": "Surge Price Setup",
+        "URI": "admin/surge-price/list",
+        "keywords": "Surge Price Surge Price Setup Surge Price list Add New Surge Price surge pricing peak hour rainy season increase delivery charge Delivery Charge Setup Delivery Management",
+        "isModified": true
+    },
+    {
+        "routeName": "ETA Configuration",
+        "URI": "admin/eta-configuration/list",
+        "keywords": "ETA Configuration ETA Setup estimated delivery time ETA list Add New ETA Configuration preparation time delivery time zone wise eta Delivery Management",
+        "isModified": true
+    }
+]

@@ -1,0 +1,184 @@
+/* Multi-Select Container */
+.multi-select-container {
+    position: relative;
+    width: 100%;
+}
+
+/* Select Box (Display Area) */
+.select-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 45px;
+    padding: 8px 12px;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    flex-wrap: wrap;
+}
+
+.select-box:hover {
+    border-color: #adb5bd;
+    background-color: #f8f9fa;
+}
+
+.select-box.open {
+    border-bottom-color: transparent;
+    border-radius: 4px 4px 0 0;
+    background-color: #f8f9fa;
+}
+
+.select-box.open .arrow {
+    transform: rotate(180deg);
+}
+
+/* Tags Container */
+.tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    flex: 1;
+    align-items: center;
+    min-height: 30px;
+}
+
+.placeholder-text {
+    color: #6c757d;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.tag-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px;
+    background-color: #e7f3ff;
+    color: #0c5aa0;
+    border-radius: 16px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.tag-badge .remove-tag {
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 4px;
+    transition: opacity 0.2s;
+}
+
+.tag-badge .remove-tag:hover {
+    opacity: 0.7;
+}
+
+/* Arrow Icon */
+.arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    padding-left: 8px;
+    transition: transform 0.3s ease;
+    color: #495057;
+}
+
+/* Option Items */
+.option-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 14px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.option-item:hover {
+    background-color: #f8f9fa;
+}
+
+.option-item:last-child {
+    border-bottom: none;
+}
+
+.option-item span {
+    flex: 1;
+    font-size: 14px;
+    color: #333333;
+    user-select: none;
+}
+
+.option-item input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    margin-left: 12px;
+    accent-color: #007bff;
+}
+
+/* Disabled state for slot checkboxes */
+.option-item input[type="checkbox"]:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+    accent-color: #ccc;
+}
+
+.option-item.disabled {
+    opacity: 0.55;
+    cursor: not-allowed;
+    background-color: #f9f9f9;
+}
+
+.option-item.disabled span {
+    color: #999999;
+}
+
+.full-day-wrapper span {
+    font-weight: 500;
+    color: #2d3748;
+}
+
+/* Scrollbar Styling */
+
+
+.dropdown-list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.dropdown-list::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.dropdown-list::-webkit-scrollbar-thumb {
+    background: #adb5bd;
+    border-radius: 3px;
+}
+
+.dropdown-list::-webkit-scrollbar-thumb:hover {
+    background: #868e96;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .select-box {
+        min-height: 40px;
+        padding: 6px 10px;
+    }
+
+    .tags-container {
+        min-height: 28px;
+        gap: 4px;
+    }
+
+    .tag-badge {
+        font-size: 11px;
+        padding: 3px 8px;
+    }
+
+    .option-item {
+        padding: 10px 12px;
+        font-size: 13px;
+    }
+}
